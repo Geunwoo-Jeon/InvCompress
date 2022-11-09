@@ -1,6 +1,6 @@
 import torch as t
 import quan
-
+import math
 from .quantizer import Quantizer
 
 
@@ -19,8 +19,6 @@ def round_pass(x):
 class LsqQelWeight(Quantizer):
     def __init__(self, bit, all_positive=False, symmetric=False, per_channel=True):
         super().__init__(bit)
-        self.epoch = 0
-
         if all_positive:
             assert not symmetric, "Positive quantization cannot be symmetric"
             # unsigned activation is quantized to [0, 2^b-1]
@@ -43,14 +41,11 @@ class LsqQelWeight(Quantizer):
         if self.per_channel:
             self.s.data = x.detach().abs().amax(dim=(1, 2, 3), keepdim=True) / self.thd_pos
         else:
-            self.s.data = x.detach().abs().max() / self.thd_pos
+            self.s.data = x.detach().abs().amax() / self.thd_pos
 
     def forward(self, x):
-        # if self.epoch == 0 and self.training:
-        #     self.init_weight(x)
-
         s_grad_scale = 1.0 / ((self.thd_pos * x.numel()) ** 0.5)
-        s_scale = grad_scale(self.s, s_grad_scale) # s와 같은데 grad scale 적용된 버전
+        s_scale = grad_scale(self.s, s_grad_scale)  # s와 같은데 grad scale 적용된 버전
 
         x_hat = x / s_scale
         x_hat = t.clamp(x_hat, self.thd_neg, self.thd_pos)
@@ -58,6 +53,8 @@ class LsqQelWeight(Quantizer):
         x_hat = x_hat * s_scale
 
         if self.training:
+            # quan.quant_loss = quan.quant_loss.to(x.device)
+            # quan.quant_loss += ((x_hat - x).abs()).sum() / len(x.reshape(-1))
             m = 2
             quan.quant_loss = quan.quant_loss.to(x.device)
             quan.quant_loss += ((x_hat - x)**m).sum()**(1/m) / len(x.reshape(-1))
@@ -67,8 +64,7 @@ class LsqQelWeight(Quantizer):
 class LsqQelAct(Quantizer):
     def __init__(self, bit, all_positive=False, symmetric=False, per_channel=True):
         super().__init__(bit)
-        self.epoch = 0
-
+        self.inited = False
         if all_positive:
             assert not symmetric, "Positive quantization cannot be symmetric"
             # unsigned activation is quantized to [0, 2^b-1]
@@ -85,17 +81,17 @@ class LsqQelAct(Quantizer):
                 self.thd_pos = 2 ** (bit - 1) - 1
 
         self.per_channel = per_channel
-        self.s = t.nn.Parameter(t.FloatTensor([1]).squeeze() / (self.thd_pos ** 0.5))
+        self.s = t.nn.Parameter(t.FloatTensor([1]).squeeze() / self.thd_pos)
 
     def init_activation(self, x, *args, **kwargs):
+        self.s.data = x.detach().abs().amax() / self.thd_pos
         if self.per_channel:
-            self.s.data = x.detach().abs().amax(dim=(0, 2, 3), keepdim=True) / self.thd_pos
-        else:
-            self.s.data = x.detach().abs().max() / self.thd_pos
+            self.s.data = self.s.data.detach().expand(x.shape[1]).clone().unsqueeze(1).unsqueeze(1).unsqueeze(0).cuda()
 
     def forward(self, x):
-        # if self.epoch == 0 and self.training:
-        #     self.init_activation(x)
+        if not self.inited and self.training:
+            self.inited = True
+            self.init_activation(x)
 
         s_grad_scale = 1.0 / ((self.thd_pos * x.numel()) ** 0.5)
         s_scale = grad_scale(self.s, s_grad_scale)  # s와 같은데 grad scale 적용된 버전
@@ -105,11 +101,10 @@ class LsqQelAct(Quantizer):
         x_hat = round_pass(x_hat)
         x_hat = x_hat * s_scale
 
-        # if self.training:
-        #     m = 6
-        #     quan.quant_loss = quan.quant_loss.to(x.device)
-        #     quan.quant_loss += ((x_hat - x)**m).sum()**(1/m) / len(x.reshape(-1))
-        #
-        #     quan.quant_loss = quan.quant_loss.to(x.device)
-        #     quan.quant_loss += ((x_hat - x).abs()).sum() / len(x.reshape(-1))
-        return x
+        if self.training:
+            m = 2
+            quan.quant_loss = quan.quant_loss.to(x.device)
+            quan.quant_loss += ((x_hat - x)**m).sum()**(1/m) / len(x.reshape(-1))
+            # quan.quant_loss = quan.quant_loss.to(x.device)
+            # quan.quant_loss += ((x_hat - x).abs()).sum() / len(x.reshape(-1))
+        return x_hat
