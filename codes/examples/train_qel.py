@@ -136,13 +136,13 @@ def configure_optimizers(net, args):
     Return two optimizers"""
 
     parameters = [
-        p for n, p in net.named_parameters() if not n.endswith(".quantiles") and not n.endswith('alpha')
+        p for n, p in net.named_parameters() if not n.endswith(".quantiles") and not n.endswith('fn.s')
     ]
     aux_parameters = [
         p for n, p in net.named_parameters() if n.endswith(".quantiles")
     ]
     scale_parameters = [
-        p for n, p in net.named_parameters() if n.endswith("alpha")
+        p for n, p in net.named_parameters() if n.endswith("fn.s")
     ]
 
     # Make sure we don't have an intersection of parameters
@@ -534,8 +534,8 @@ def main(argv):
     logger_train.info(args)
     logger_train.info(net)
 
-    if args.cuda and torch.cuda.device_count() > 1:
-        net = CustomDataParallel(net)
+    # if args.cuda and torch.cuda.device_count() > 1:
+    #     net = CustomDataParallel(net)
 
     optimizer, aux_optimizer, scale_optimizer = configure_optimizers(net, args)
     # lr_scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs)
