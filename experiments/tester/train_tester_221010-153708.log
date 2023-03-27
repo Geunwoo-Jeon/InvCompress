@@ -1,0 +1,97 @@
+22-10-10 15:37:17.184 - INFO: Namespace(aux_learning_rate=0.001, basepoint=None, batch_size=8, checkpoint=None, clip_max_norm=1.0, config=None, cuda=True, dataset='/home/qororo606/flicker', epochs=500, experiment='tester', gpu_id=0, learning_rate=0.0001, lmbda=0.0018, lsq=False, metrics='mse', model='mbt2018-mean', num_workers=4, patch_size=(256, 256), pretrain=False, quality=1, save=True, seed=None, test_batch_size=1)
+22-10-10 15:37:17.185 - INFO: MeanScaleHyperprior(
+  (entropy_bottleneck): EntropyBottleneck(
+    (likelihood_lower_bound): LowerBound()
+  )
+  (g_a): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (1): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (2): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (3): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (4): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (5): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (6): Conv2d(128, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+  )
+  (g_s): Sequential(
+    (0): ConvTranspose2d(192, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (1): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (2): ConvTranspose2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (3): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (4): ConvTranspose2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (5): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (6): ConvTranspose2d(128, 3, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+  )
+  (h_a): Sequential(
+    (0): Conv2d(192, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): LeakyReLU(negative_slope=0.01, inplace=True)
+    (2): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (3): LeakyReLU(negative_slope=0.01, inplace=True)
+    (4): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+  )
+  (h_s): Sequential(
+    (0): ConvTranspose2d(128, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (1): LeakyReLU(negative_slope=0.01, inplace=True)
+    (2): ConvTranspose2d(192, 288, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (3): LeakyReLU(negative_slope=0.01, inplace=True)
+    (4): Conv2d(288, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (gaussian_conditional): GaussianConditional(
+    (likelihood_lower_bound): LowerBound()
+    (lower_bound_scale): LowerBound()
+  )
+)
+22-10-10 15:37:17.186 - INFO: Learning rate: 0.0001
+22-10-10 15:37:18.205 - INFO: Train epoch 0: [    0/16574 (0%)] Loss: 32.2384 | MSE loss: 0.2728 | Bpp loss: 0.3141 | Aux loss: 5281.96
+22-10-10 15:37:28.625 - INFO: Train epoch 0: [  800/16574 (5%)] Loss: 1.9495 | MSE loss: 0.0130 | Bpp loss: 0.4230 | Aux loss: 5254.88
+22-10-10 15:37:39.139 - INFO: Train epoch 0: [ 1600/16574 (10%)] Loss: 2.1722 | MSE loss: 0.0151 | Bpp loss: 0.4061 | Aux loss: 5231.21
+22-10-10 15:37:49.474 - INFO: Train epoch 0: [ 2400/16574 (14%)] Loss: 1.4395 | MSE loss: 0.0088 | Bpp loss: 0.4066 | Aux loss: 5201.05
+22-10-10 15:37:59.625 - INFO: Train epoch 0: [ 3200/16574 (19%)] Loss: 1.5446 | MSE loss: 0.0097 | Bpp loss: 0.4143 | Aux loss: 5167.36
+22-10-10 15:38:09.874 - INFO: Train epoch 0: [ 4000/16574 (24%)] Loss: 1.2685 | MSE loss: 0.0074 | Bpp loss: 0.4015 | Aux loss: 5133.68
+22-10-10 15:38:19.999 - INFO: Train epoch 0: [ 4800/16574 (29%)] Loss: 1.3241 | MSE loss: 0.0075 | Bpp loss: 0.4457 | Aux loss: 5107.20
+22-10-10 15:38:30.269 - INFO: Train epoch 0: [ 5600/16574 (34%)] Loss: 1.0921 | MSE loss: 0.0061 | Bpp loss: 0.3782 | Aux loss: 5070.85
+22-10-10 15:38:40.552 - INFO: Train epoch 0: [ 6400/16574 (39%)] Loss: 0.9940 | MSE loss: 0.0051 | Bpp loss: 0.3942 | Aux loss: 5030.02
+22-10-10 15:38:50.894 - INFO: Train epoch 0: [ 7200/16574 (43%)] Loss: 0.8935 | MSE loss: 0.0045 | Bpp loss: 0.3628 | Aux loss: 4987.41
+22-10-10 15:39:01.238 - INFO: Train epoch 0: [ 8000/16574 (48%)] Loss: 0.7714 | MSE loss: 0.0036 | Bpp loss: 0.3531 | Aux loss: 4948.55
+22-10-10 15:39:11.582 - INFO: Train epoch 0: [ 8800/16574 (53%)] Loss: 0.9865 | MSE loss: 0.0054 | Bpp loss: 0.3577 | Aux loss: 4909.27

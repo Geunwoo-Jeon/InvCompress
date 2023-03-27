@@ -1,0 +1,203 @@
+22-11-16 15:22:13.743 - INFO: Munch({'quan': Munch({'act': Munch({'mode': 'lsq_act', 'bit': 8, 'per_channel': False, 'symmetric': False, 'all_positive': True}), 'weight': Munch({'mode': 'lsq_weight', 'bit': 8, 'per_channel': True, 'symmetric': False, 'all_positive': False}), 'excepts': Munch({'g_a.0': Munch({'act': Munch({'bit': 0}), 'weight': Munch({'bit': 8})}), 'h_a.0': Munch({'act': Munch({'all_positive': False}), 'weight': Munch({'mode': 'lsq_weight'})}), 'h_s.0': Munch({'act': Munch({'all_positive': False}), 'weight': Munch({'mode': 'lsq_weight'})}), 'entropy_parameters.0': Munch({'act': Munch({'all_positive': False}), 'weight': Munch({'mode': 'lsq_weight'})}), 'context_prediction': Munch({'act': Munch({'all_positive': False}), 'weight': Munch({'mode': 'lsq_weight'})}), 'g_s.0': Munch({'act': Munch({'all_positive': False}), 'weight': Munch({'mode': 'lsq_weight'})}), 'g_s.6': Munch({'act': Munch({'bit': 8}), 'weight': Munch({'bit': 8})})})})})
+22-11-16 15:22:13.757 - INFO: Namespace(aux_learning_rate=0.001, basepoint='../experiments/Joint_q3/checkpoints/checkpoint_best_loss.pth.tar', batch_size=8, checkpoint=None, clip_max_norm=1.0, config='configs/joint_8bit_lsq.yaml', cuda=True, dataset='/home/qororo606/flicker', epochs=500, experiment='Joint_lsq_q3', gpu_id=0, learning_rate=0.0001, lmbda=0.0067, lsq=True, metrics='mse', model='joint-relu', num_workers=4, patch_size=(256, 256), pretrain=False, quality=3, save=True, seed=None, test_batch_size=1)
+22-11-16 15:22:13.757 - INFO: JointReLU(
+  (entropy_bottleneck): EntropyBottleneck(
+    (likelihood_lower_bound): LowerBound()
+  )
+  (g_a): Sequential(
+    (0): QuanConv2d(
+      3, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): IdentityQuan()
+    )
+    (1): ReLU()
+    (2): QuanConv2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (3): ReLU()
+    (4): QuanConv2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (5): ReLU()
+    (6): QuanConv2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+  )
+  (g_s): Sequential(
+    (0): QuanConvTranspose2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (1): ReLU()
+    (2): QuanConvTranspose2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (3): ReLU()
+    (4): QuanConvTranspose2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (5): ReLU()
+    (6): QuanConvTranspose2d(
+      192, 3, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+  )
+  (h_a): Sequential(
+    (0): QuanConv2d(
+      192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (1): ReLU()
+    (2): QuanConv2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (3): ReLU()
+    (4): QuanConv2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+  )
+  (h_s): Sequential(
+    (0): QuanConvTranspose2d(
+      192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (1): ReLU()
+    (2): QuanConvTranspose2d(
+      192, 288, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (3): ReLU()
+    (4): QuanConv2d(
+      288, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+  )
+  (gaussian_conditional): GaussianConditional(
+    (likelihood_lower_bound): LowerBound()
+    (lower_bound_scale): LowerBound()
+  )
+  (entropy_parameters): Sequential(
+    (0): QuanConv2d(
+      768, 640, kernel_size=(1, 1), stride=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (1): ReLU()
+    (2): QuanConv2d(
+      640, 512, kernel_size=(1, 1), stride=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+    (3): ReLU()
+    (4): QuanConv2d(
+      512, 384, kernel_size=(1, 1), stride=(1, 1)
+      (quan_w_fn): LsqWeight()
+      (quan_a_fn): LsqAct()
+    )
+  )
+  (context_prediction): QuanMaskedConv2d(
+    192, 384, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+    (quan_w_fn): LsqWeight()
+    (quan_a_fn): LsqAct()
+  )
+)
+22-11-16 15:22:13.759 - INFO: Learning rate: 0.0001
+22-11-16 15:22:14.511 - INFO: Train epoch 0: [    0/16574 (0%)] Loss: 29.4506 | MSE loss: 0.0664 | Bpp loss: 0.5384 | Aux loss: 87.73
+22-11-16 15:22:30.625 - INFO: Train epoch 0: [  800/16574 (5%)] Loss: 2.4516 | MSE loss: 0.0043 | Bpp loss: 0.5880 | Aux loss: 106.25
+22-11-16 15:22:46.907 - INFO: Train epoch 0: [ 1600/16574 (10%)] Loss: 2.4764 | MSE loss: 0.0046 | Bpp loss: 0.4727 | Aux loss: 109.70
+22-11-16 15:23:03.398 - INFO: Train epoch 0: [ 2400/16574 (14%)] Loss: 1.9091 | MSE loss: 0.0035 | Bpp loss: 0.3838 | Aux loss: 113.02
+22-11-16 15:23:19.577 - INFO: Train epoch 0: [ 3200/16574 (19%)] Loss: 1.2533 | MSE loss: 0.0019 | Bpp loss: 0.4280 | Aux loss: 141.80
+22-11-16 15:23:35.536 - INFO: Train epoch 0: [ 4000/16574 (24%)] Loss: 1.0703 | MSE loss: 0.0016 | Bpp loss: 0.3888 | Aux loss: 147.65
+22-11-16 15:23:51.265 - INFO: Train epoch 0: [ 4800/16574 (29%)] Loss: 0.9779 | MSE loss: 0.0014 | Bpp loss: 0.3700 | Aux loss: 160.81
+22-11-16 15:24:07.523 - INFO: Train epoch 0: [ 5600/16574 (34%)] Loss: 0.8573 | MSE loss: 0.0012 | Bpp loss: 0.3350 | Aux loss: 166.07
+22-11-16 15:24:23.179 - INFO: Train epoch 0: [ 6400/16574 (39%)] Loss: 0.7973 | MSE loss: 0.0011 | Bpp loss: 0.3340 | Aux loss: 172.56
+22-11-16 15:24:38.679 - INFO: Train epoch 0: [ 7200/16574 (43%)] Loss: 1.5695 | MSE loss: 0.0024 | Bpp loss: 0.5448 | Aux loss: 185.07
+22-11-16 15:24:54.339 - INFO: Train epoch 0: [ 8000/16574 (48%)] Loss: 1.4459 | MSE loss: 0.0022 | Bpp loss: 0.4682 | Aux loss: 185.20
+22-11-16 15:25:09.749 - INFO: Train epoch 0: [ 8800/16574 (53%)] Loss: 1.0669 | MSE loss: 0.0015 | Bpp loss: 0.4092 | Aux loss: 220.33
+22-11-16 15:25:25.382 - INFO: Train epoch 0: [ 9600/16574 (58%)] Loss: 0.8217 | MSE loss: 0.0011 | Bpp loss: 0.3397 | Aux loss: 205.28
+22-11-16 15:25:40.880 - INFO: Train epoch 0: [10400/16574 (63%)] Loss: 0.9499 | MSE loss: 0.0014 | Bpp loss: 0.3529 | Aux loss: 220.75
+22-11-16 15:25:56.444 - INFO: Train epoch 0: [11200/16574 (68%)] Loss: 0.7139 | MSE loss: 0.0010 | Bpp loss: 0.2880 | Aux loss: 205.98
+22-11-16 15:26:12.256 - INFO: Train epoch 0: [12000/16574 (72%)] Loss: 1.2557 | MSE loss: 0.0017 | Bpp loss: 0.5130 | Aux loss: 208.85
+22-11-16 15:26:28.138 - INFO: Train epoch 0: [12800/16574 (77%)] Loss: 0.8216 | MSE loss: 0.0013 | Bpp loss: 0.2714 | Aux loss: 206.05
+22-11-16 15:26:44.067 - INFO: Train epoch 0: [13600/16574 (82%)] Loss: 0.7909 | MSE loss: 0.0012 | Bpp loss: 0.2731 | Aux loss: 214.23
+22-11-16 15:27:00.106 - INFO: Train epoch 0: [14400/16574 (87%)] Loss: 0.9322 | MSE loss: 0.0013 | Bpp loss: 0.3851 | Aux loss: 214.34
+22-11-16 15:27:16.256 - INFO: Train epoch 0: [15200/16574 (92%)] Loss: 1.5928 | MSE loss: 0.0025 | Bpp loss: 0.5035 | Aux loss: 218.96
+22-11-16 15:27:31.899 - INFO: Train epoch 0: [16000/16574 (97%)] Loss: 1.1350 | MSE loss: 0.0017 | Bpp loss: 0.3959 | Aux loss: 215.67
+22-11-16 15:27:44.962 - INFO: Learning rate: 0.0001
+22-11-16 15:27:45.457 - INFO: Train epoch 1: [    0/16574 (0%)] Loss: 0.8517 | MSE loss: 0.0011 | Bpp loss: 0.3659 | Aux loss: 208.82
+22-11-16 15:28:01.155 - INFO: Train epoch 1: [  800/16574 (5%)] Loss: 0.9331 | MSE loss: 0.0013 | Bpp loss: 0.3630 | Aux loss: 215.82
+22-11-16 15:28:16.686 - INFO: Train epoch 1: [ 1600/16574 (10%)] Loss: 1.7261 | MSE loss: 0.0025 | Bpp loss: 0.6391 | Aux loss: 210.78
+22-11-16 15:28:32.522 - INFO: Train epoch 1: [ 2400/16574 (14%)] Loss: 0.6855 | MSE loss: 0.0008 | Bpp loss: 0.3267 | Aux loss: 167.42
+22-11-16 15:28:48.143 - INFO: Train epoch 1: [ 3200/16574 (19%)] Loss: 0.7632 | MSE loss: 0.0009 | Bpp loss: 0.3691 | Aux loss: 156.86
+22-11-16 15:29:04.222 - INFO: Train epoch 1: [ 4000/16574 (24%)] Loss: 0.8003 | MSE loss: 0.0009 | Bpp loss: 0.3869 | Aux loss: 130.74
+22-11-16 15:29:20.176 - INFO: Train epoch 1: [ 4800/16574 (29%)] Loss: 0.8972 | MSE loss: 0.0012 | Bpp loss: 0.3757 | Aux loss: 127.72
+22-11-16 15:29:35.944 - INFO: Train epoch 1: [ 5600/16574 (34%)] Loss: 0.5523 | MSE loss: 0.0006 | Bpp loss: 0.2758 | Aux loss: 107.89
+22-11-16 15:29:51.480 - INFO: Train epoch 1: [ 6400/16574 (39%)] Loss: 0.9582 | MSE loss: 0.0012 | Bpp loss: 0.4320 | Aux loss: 110.85
+22-11-16 15:30:07.124 - INFO: Train epoch 1: [ 7200/16574 (43%)] Loss: 0.9749 | MSE loss: 0.0013 | Bpp loss: 0.4252 | Aux loss: 108.34
+22-11-16 15:30:22.850 - INFO: Train epoch 1: [ 8000/16574 (48%)] Loss: 0.6796 | MSE loss: 0.0008 | Bpp loss: 0.3251 | Aux loss: 100.52
+22-11-16 15:30:38.422 - INFO: Train epoch 1: [ 8800/16574 (53%)] Loss: 1.0720 | MSE loss: 0.0013 | Bpp loss: 0.5097 | Aux loss: 91.26
+22-11-16 15:30:54.223 - INFO: Train epoch 1: [ 9600/16574 (58%)] Loss: 0.8561 | MSE loss: 0.0011 | Bpp loss: 0.3888 | Aux loss: 93.62
+22-11-16 15:31:09.883 - INFO: Train epoch 1: [10400/16574 (63%)] Loss: 0.8521 | MSE loss: 0.0010 | Bpp loss: 0.4122 | Aux loss: 80.22
+22-11-16 15:31:25.786 - INFO: Train epoch 1: [11200/16574 (68%)] Loss: 1.1719 | MSE loss: 0.0017 | Bpp loss: 0.4243 | Aux loss: 82.68
+22-11-16 15:31:41.357 - INFO: Train epoch 1: [12000/16574 (72%)] Loss: 0.9522 | MSE loss: 0.0013 | Bpp loss: 0.4061 | Aux loss: 74.41
+22-11-16 15:31:57.022 - INFO: Train epoch 1: [12800/16574 (77%)] Loss: 0.9410 | MSE loss: 0.0012 | Bpp loss: 0.4072 | Aux loss: 75.84
+22-11-16 15:32:12.750 - INFO: Train epoch 1: [13600/16574 (82%)] Loss: 0.9538 | MSE loss: 0.0011 | Bpp loss: 0.4722 | Aux loss: 78.45
+22-11-16 15:32:28.637 - INFO: Train epoch 1: [14400/16574 (87%)] Loss: 0.7211 | MSE loss: 0.0008 | Bpp loss: 0.3803 | Aux loss: 74.34
+22-11-16 15:32:44.387 - INFO: Train epoch 1: [15200/16574 (92%)] Loss: 0.9039 | MSE loss: 0.0011 | Bpp loss: 0.4098 | Aux loss: 69.03
+22-11-16 15:33:00.186 - INFO: Train epoch 1: [16000/16574 (97%)] Loss: 0.6536 | MSE loss: 0.0007 | Bpp loss: 0.3329 | Aux loss: 80.96
+22-11-16 15:33:13.563 - INFO: Learning rate: 0.0001
+22-11-16 15:33:14.052 - INFO: Train epoch 2: [    0/16574 (0%)] Loss: 1.0294 | MSE loss: 0.0013 | Bpp loss: 0.4756 | Aux loss: 75.86
+22-11-16 15:33:30.337 - INFO: Train epoch 2: [  800/16574 (5%)] Loss: 0.5271 | MSE loss: 0.0006 | Bpp loss: 0.2668 | Aux loss: 65.13
+22-11-16 15:33:46.527 - INFO: Train epoch 2: [ 1600/16574 (10%)] Loss: 0.8878 | MSE loss: 0.0011 | Bpp loss: 0.4210 | Aux loss: 64.84
+22-11-16 15:34:02.467 - INFO: Train epoch 2: [ 2400/16574 (14%)] Loss: 0.5929 | MSE loss: 0.0006 | Bpp loss: 0.3282 | Aux loss: 80.44
+22-11-16 15:34:18.625 - INFO: Train epoch 2: [ 3200/16574 (19%)] Loss: 0.6850 | MSE loss: 0.0008 | Bpp loss: 0.3502 | Aux loss: 66.02
+22-11-16 15:34:34.791 - INFO: Train epoch 2: [ 4000/16574 (24%)] Loss: 0.7201 | MSE loss: 0.0008 | Bpp loss: 0.3719 | Aux loss: 65.47
+22-11-16 15:34:50.706 - INFO: Train epoch 2: [ 4800/16574 (29%)] Loss: 0.8713 | MSE loss: 0.0010 | Bpp loss: 0.4287 | Aux loss: 77.59
+22-11-16 15:35:06.608 - INFO: Train epoch 2: [ 5600/16574 (34%)] Loss: 0.8770 | MSE loss: 0.0011 | Bpp loss: 0.4128 | Aux loss: 64.32
+22-11-16 15:35:22.349 - INFO: Train epoch 2: [ 6400/16574 (39%)] Loss: 0.6697 | MSE loss: 0.0008 | Bpp loss: 0.3165 | Aux loss: 69.39
+22-11-16 15:35:37.948 - INFO: Train epoch 2: [ 7200/16574 (43%)] Loss: 0.6448 | MSE loss: 0.0007 | Bpp loss: 0.3511 | Aux loss: 74.87
+22-11-16 15:35:53.626 - INFO: Train epoch 2: [ 8000/16574 (48%)] Loss: 0.5657 | MSE loss: 0.0006 | Bpp loss: 0.3159 | Aux loss: 69.13
+22-11-16 15:36:09.407 - INFO: Train epoch 2: [ 8800/16574 (53%)] Loss: 1.2452 | MSE loss: 0.0016 | Bpp loss: 0.5384 | Aux loss: 70.72
+22-11-16 15:36:25.243 - INFO: Train epoch 2: [ 9600/16574 (58%)] Loss: 0.6847 | MSE loss: 0.0008 | Bpp loss: 0.3230 | Aux loss: 80.99
+22-11-16 15:36:41.012 - INFO: Train epoch 2: [10400/16574 (63%)] Loss: 0.7652 | MSE loss: 0.0009 | Bpp loss: 0.3894 | Aux loss: 70.42
+22-11-16 15:36:56.374 - INFO: Train epoch 2: [11200/16574 (68%)] Loss: 0.9863 | MSE loss: 0.0012 | Bpp loss: 0.4494 | Aux loss: 65.06
+22-11-16 15:37:12.316 - INFO: Train epoch 2: [12000/16574 (72%)] Loss: 1.0237 | MSE loss: 0.0015 | Bpp loss: 0.3877 | Aux loss: 67.40
+22-11-16 15:37:27.905 - INFO: Train epoch 2: [12800/16574 (77%)] Loss: 0.6325 | MSE loss: 0.0006 | Bpp loss: 0.3538 | Aux loss: 72.43
+22-11-16 15:37:43.840 - INFO: Train epoch 2: [13600/16574 (82%)] Loss: 0.7488 | MSE loss: 0.0009 | Bpp loss: 0.3675 | Aux loss: 64.38
+22-11-16 15:37:59.849 - INFO: Train epoch 2: [14400/16574 (87%)] Loss: 0.9573 | MSE loss: 0.0011 | Bpp loss: 0.4756 | Aux loss: 68.35
+22-11-16 15:38:15.541 - INFO: Train epoch 2: [15200/16574 (92%)] Loss: 0.7308 | MSE loss: 0.0008 | Bpp loss: 0.3769 | Aux loss: 68.33
+22-11-16 15:38:31.273 - INFO: Train epoch 2: [16000/16574 (97%)] Loss: 0.8759 | MSE loss: 0.0010 | Bpp loss: 0.4431 | Aux loss: 66.33
+22-11-16 15:38:44.563 - INFO: Learning rate: 0.0001
+22-11-16 15:38:45.085 - INFO: Train epoch 3: [    0/16574 (0%)] Loss: 0.9091 | MSE loss: 0.0010 | Bpp loss: 0.4567 | Aux loss: 67.06
+22-11-16 15:39:01.134 - INFO: Train epoch 3: [  800/16574 (5%)] Loss: 1.1348 | MSE loss: 0.0014 | Bpp loss: 0.5270 | Aux loss: 80.89
+22-11-16 15:39:16.620 - INFO: Train epoch 3: [ 1600/16574 (10%)] Loss: 0.6725 | MSE loss: 0.0007 | Bpp loss: 0.3574 | Aux loss: 61.84
+22-11-16 15:39:32.262 - INFO: Train epoch 3: [ 2400/16574 (14%)] Loss: 0.8514 | MSE loss: 0.0010 | Bpp loss: 0.4329 | Aux loss: 77.10
+22-11-16 15:39:47.789 - INFO: Train epoch 3: [ 3200/16574 (19%)] Loss: 0.9133 | MSE loss: 0.0010 | Bpp loss: 0.4890 | Aux loss: 61.31
+22-11-16 15:40:03.547 - INFO: Train epoch 3: [ 4000/16574 (24%)] Loss: 0.9016 | MSE loss: 0.0010 | Bpp loss: 0.4664 | Aux loss: 61.40
+22-11-16 15:40:19.354 - INFO: Train epoch 3: [ 4800/16574 (29%)] Loss: 0.8844 | MSE loss: 0.0010 | Bpp loss: 0.4507 | Aux loss: 73.03
+22-11-16 15:40:35.214 - INFO: Train epoch 3: [ 5600/16574 (34%)] Loss: 0.8724 | MSE loss: 0.0011 | Bpp loss: 0.4080 | Aux loss: 70.56
+22-11-16 15:40:51.019 - INFO: Train epoch 3: [ 6400/16574 (39%)] Loss: 0.8838 | MSE loss: 0.0010 | Bpp loss: 0.4341 | Aux loss: 60.86
+22-11-16 15:41:06.952 - INFO: Train epoch 3: [ 7200/16574 (43%)] Loss: 0.7771 | MSE loss: 0.0009 | Bpp loss: 0.3990 | Aux loss: 69.45
+22-11-16 15:41:22.581 - INFO: Train epoch 3: [ 8000/16574 (48%)] Loss: 0.7771 | MSE loss: 0.0009 | Bpp loss: 0.3910 | Aux loss: 60.48
+22-11-16 15:41:38.160 - INFO: Train epoch 3: [ 8800/16574 (53%)] Loss: 0.5575 | MSE loss: 0.0006 | Bpp loss: 0.3021 | Aux loss: 60.27
+22-11-16 15:41:53.817 - INFO: Train epoch 3: [ 9600/16574 (58%)] Loss: 0.9137 | MSE loss: 0.0011 | Bpp loss: 0.4408 | Aux loss: 67.53

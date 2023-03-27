@@ -1,0 +1,2 @@
+22-10-10 14:54:44.368 - INFO: Test epoch 0: Average losses: Loss: 1.0790 | MSE loss: 0.0079 | Bpp loss: 0.1547 | Aux loss: 4371.33 | PSNR: 21.313318 | MS-SSIM: 0.810443
+22-10-10 14:54:44.943 - INFO: best checkpoint saved.

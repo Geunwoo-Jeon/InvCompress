@@ -1,0 +1,595 @@
+22-09-07 14:25:34.083 - INFO: Test epoch 0: Average losses: Loss: 11.7000 | MSE loss: 0.0069 | Bpp loss: 0.5037 | Aux loss: 6746.73 | PSNR: 21.969334 | MS-SSIM: 0.810352
+22-09-07 14:25:34.728 - INFO: best checkpoint saved.
+22-09-07 14:28:46.230 - INFO: Test epoch 1: Average losses: Loss: 9.2723 | MSE loss: 0.0054 | Bpp loss: 0.4652 | Aux loss: 4503.01 | PSNR: 22.936855 | MS-SSIM: 0.864966
+22-09-07 14:28:46.932 - INFO: best checkpoint saved.
+22-09-07 14:31:57.764 - INFO: Test epoch 2: Average losses: Loss: 7.4020 | MSE loss: 0.0042 | Bpp loss: 0.5358 | Aux loss: 1493.40 | PSNR: 24.088318 | MS-SSIM: 0.899370
+22-09-07 14:31:58.542 - INFO: best checkpoint saved.
+22-09-07 14:35:09.863 - INFO: Test epoch 3: Average losses: Loss: 5.8331 | MSE loss: 0.0033 | Bpp loss: 0.5420 | Aux loss: 1620.13 | PSNR: 25.492910 | MS-SSIM: 0.911743
+22-09-07 14:35:10.548 - INFO: best checkpoint saved.
+22-09-07 14:38:26.442 - INFO: Test epoch 4: Average losses: Loss: 5.0018 | MSE loss: 0.0027 | Bpp loss: 0.5826 | Aux loss: 2742.72 | PSNR: 26.371688 | MS-SSIM: 0.927600
+22-09-07 14:38:27.144 - INFO: best checkpoint saved.
+22-09-07 14:41:38.595 - INFO: Test epoch 5: Average losses: Loss: 4.5278 | MSE loss: 0.0024 | Bpp loss: 0.6009 | Aux loss: 3396.40 | PSNR: 26.915707 | MS-SSIM: 0.936934
+22-09-07 14:41:39.443 - INFO: best checkpoint saved.
+22-09-07 14:45:00.306 - INFO: Test epoch 6: Average losses: Loss: 4.2464 | MSE loss: 0.0022 | Bpp loss: 0.6008 | Aux loss: 3483.94 | PSNR: 27.196740 | MS-SSIM: 0.941113
+22-09-07 14:45:01.246 - INFO: best checkpoint saved.
+22-09-07 14:48:22.414 - INFO: Test epoch 7: Average losses: Loss: 4.5042 | MSE loss: 0.0024 | Bpp loss: 0.6478 | Aux loss: 2998.16 | PSNR: 26.978724 | MS-SSIM: 0.942748
+22-09-07 14:51:41.066 - INFO: Test epoch 8: Average losses: Loss: 3.8561 | MSE loss: 0.0020 | Bpp loss: 0.6615 | Aux loss: 2106.52 | PSNR: 27.630714 | MS-SSIM: 0.949870
+22-09-07 14:51:41.826 - INFO: best checkpoint saved.
+22-09-07 14:54:56.101 - INFO: Test epoch 9: Average losses: Loss: 3.8986 | MSE loss: 0.0020 | Bpp loss: 0.6549 | Aux loss: 834.72 | PSNR: 27.568253 | MS-SSIM: 0.951798
+22-09-07 14:58:09.420 - INFO: Test epoch 10: Average losses: Loss: 3.4618 | MSE loss: 0.0017 | Bpp loss: 0.6555 | Aux loss: 385.11 | PSNR: 28.345062 | MS-SSIM: 0.955723
+22-09-07 14:58:10.146 - INFO: best checkpoint saved.
+22-09-07 15:01:16.018 - INFO: Test epoch 11: Average losses: Loss: 3.3038 | MSE loss: 0.0016 | Bpp loss: 0.6578 | Aux loss: 291.14 | PSNR: 28.380293 | MS-SSIM: 0.957613
+22-09-07 15:01:16.762 - INFO: best checkpoint saved.
+22-09-07 15:04:30.185 - INFO: Test epoch 12: Average losses: Loss: 3.2630 | MSE loss: 0.0016 | Bpp loss: 0.6947 | Aux loss: 282.22 | PSNR: 28.626348 | MS-SSIM: 0.958439
+22-09-07 15:04:30.865 - INFO: best checkpoint saved.
+22-09-07 15:07:43.734 - INFO: Test epoch 13: Average losses: Loss: 3.2650 | MSE loss: 0.0016 | Bpp loss: 0.6581 | Aux loss: 260.57 | PSNR: 28.593902 | MS-SSIM: 0.959549
+22-09-07 15:10:57.192 - INFO: Test epoch 14: Average losses: Loss: 3.1569 | MSE loss: 0.0015 | Bpp loss: 0.7214 | Aux loss: 305.50 | PSNR: 28.870375 | MS-SSIM: 0.962209
+22-09-07 15:10:57.978 - INFO: best checkpoint saved.
+22-09-07 15:14:08.222 - INFO: Test epoch 15: Average losses: Loss: 2.9816 | MSE loss: 0.0014 | Bpp loss: 0.6795 | Aux loss: 342.72 | PSNR: 29.110134 | MS-SSIM: 0.962402
+22-09-07 15:14:08.882 - INFO: best checkpoint saved.
+22-09-07 15:17:19.701 - INFO: Test epoch 16: Average losses: Loss: 2.9849 | MSE loss: 0.0014 | Bpp loss: 0.6871 | Aux loss: 372.39 | PSNR: 29.125554 | MS-SSIM: 0.962566
+22-09-07 15:20:29.924 - INFO: Test epoch 17: Average losses: Loss: 2.8266 | MSE loss: 0.0013 | Bpp loss: 0.6788 | Aux loss: 366.16 | PSNR: 29.471475 | MS-SSIM: 0.965482
+22-09-07 15:20:30.676 - INFO: best checkpoint saved.
+22-09-07 15:23:37.773 - INFO: Test epoch 18: Average losses: Loss: 2.8253 | MSE loss: 0.0013 | Bpp loss: 0.7071 | Aux loss: 334.92 | PSNR: 29.569045 | MS-SSIM: 0.966635
+22-09-07 15:23:38.468 - INFO: best checkpoint saved.
+22-09-07 15:26:45.114 - INFO: Test epoch 19: Average losses: Loss: 2.7615 | MSE loss: 0.0013 | Bpp loss: 0.6995 | Aux loss: 293.64 | PSNR: 29.570388 | MS-SSIM: 0.965603
+22-09-07 15:26:45.798 - INFO: best checkpoint saved.
+22-09-07 15:29:52.947 - INFO: Test epoch 20: Average losses: Loss: 2.6699 | MSE loss: 0.0012 | Bpp loss: 0.6935 | Aux loss: 238.67 | PSNR: 29.572822 | MS-SSIM: 0.966992
+22-09-07 15:29:53.650 - INFO: best checkpoint saved.
+22-09-07 15:33:02.277 - INFO: Test epoch 21: Average losses: Loss: 2.5904 | MSE loss: 0.0012 | Bpp loss: 0.6905 | Aux loss: 199.10 | PSNR: 29.735141 | MS-SSIM: 0.968241
+22-09-07 15:33:02.925 - INFO: best checkpoint saved.
+22-09-07 15:36:16.171 - INFO: Test epoch 22: Average losses: Loss: 2.5292 | MSE loss: 0.0011 | Bpp loss: 0.6957 | Aux loss: 149.03 | PSNR: 30.031128 | MS-SSIM: 0.967888
+22-09-07 15:36:16.863 - INFO: best checkpoint saved.
+22-09-07 15:39:23.142 - INFO: Test epoch 23: Average losses: Loss: 2.4861 | MSE loss: 0.0011 | Bpp loss: 0.7000 | Aux loss: 105.81 | PSNR: 30.063637 | MS-SSIM: 0.969842
+22-09-07 15:39:23.896 - INFO: best checkpoint saved.
+22-09-07 15:42:31.272 - INFO: Test epoch 24: Average losses: Loss: 2.3928 | MSE loss: 0.0010 | Bpp loss: 0.7046 | Aux loss: 50.68 | PSNR: 30.415040 | MS-SSIM: 0.970448
+22-09-07 15:42:31.916 - INFO: best checkpoint saved.
+22-09-07 15:45:37.892 - INFO: Test epoch 25: Average losses: Loss: 2.4632 | MSE loss: 0.0011 | Bpp loss: 0.7271 | Aux loss: 67.82 | PSNR: 30.194036 | MS-SSIM: 0.970093
+22-09-07 15:48:42.930 - INFO: Test epoch 26: Average losses: Loss: 2.3988 | MSE loss: 0.0010 | Bpp loss: 0.7201 | Aux loss: 113.51 | PSNR: 30.346059 | MS-SSIM: 0.971305
+22-09-07 15:51:46.899 - INFO: Test epoch 27: Average losses: Loss: 2.3231 | MSE loss: 0.0010 | Bpp loss: 0.7093 | Aux loss: 124.84 | PSNR: 30.540513 | MS-SSIM: 0.971198
+22-09-07 15:51:47.767 - INFO: best checkpoint saved.
+22-09-07 15:54:52.608 - INFO: Test epoch 28: Average losses: Loss: 2.3477 | MSE loss: 0.0010 | Bpp loss: 0.7121 | Aux loss: 141.59 | PSNR: 30.536389 | MS-SSIM: 0.971022
+22-09-07 15:57:52.045 - INFO: Test epoch 29: Average losses: Loss: 2.3595 | MSE loss: 0.0010 | Bpp loss: 0.7378 | Aux loss: 121.20 | PSNR: 30.488095 | MS-SSIM: 0.972005
+22-09-07 16:01:49.798 - INFO: Test epoch 30: Average losses: Loss: 2.3939 | MSE loss: 0.0010 | Bpp loss: 0.7326 | Aux loss: 101.83 | PSNR: 30.221467 | MS-SSIM: 0.972620
+22-09-07 16:05:28.225 - INFO: Test epoch 31: Average losses: Loss: 2.2292 | MSE loss: 0.0009 | Bpp loss: 0.7219 | Aux loss: 65.99 | PSNR: 30.868981 | MS-SSIM: 0.972723
+22-09-07 16:05:29.013 - INFO: best checkpoint saved.
+22-09-07 16:08:33.431 - INFO: Test epoch 32: Average losses: Loss: 2.2221 | MSE loss: 0.0009 | Bpp loss: 0.7282 | Aux loss: 35.40 | PSNR: 30.830845 | MS-SSIM: 0.973691
+22-09-07 16:08:34.120 - INFO: best checkpoint saved.
+22-09-07 16:11:40.687 - INFO: Test epoch 33: Average losses: Loss: 2.2063 | MSE loss: 0.0009 | Bpp loss: 0.7279 | Aux loss: 15.70 | PSNR: 30.895755 | MS-SSIM: 0.973336
+22-09-07 16:11:41.417 - INFO: best checkpoint saved.
+22-09-07 16:14:49.857 - INFO: Test epoch 34: Average losses: Loss: 2.2679 | MSE loss: 0.0009 | Bpp loss: 0.7483 | Aux loss: 16.75 | PSNR: 30.768266 | MS-SSIM: 0.972488
+22-09-07 16:17:52.605 - INFO: Test epoch 35: Average losses: Loss: 2.2608 | MSE loss: 0.0009 | Bpp loss: 0.7548 | Aux loss: 13.44 | PSNR: 30.843428 | MS-SSIM: 0.972179
+22-09-07 16:20:55.592 - INFO: Test epoch 36: Average losses: Loss: 2.2407 | MSE loss: 0.0009 | Bpp loss: 0.7717 | Aux loss: 11.54 | PSNR: 31.082516 | MS-SSIM: 0.974438
+22-09-07 16:24:02.661 - INFO: Test epoch 37: Average losses: Loss: 2.1519 | MSE loss: 0.0009 | Bpp loss: 0.7549 | Aux loss: 14.59 | PSNR: 31.239074 | MS-SSIM: 0.974138
+22-09-07 16:24:03.372 - INFO: best checkpoint saved.
+22-09-07 16:27:11.212 - INFO: Test epoch 38: Average losses: Loss: 2.2609 | MSE loss: 0.0009 | Bpp loss: 0.7778 | Aux loss: 11.53 | PSNR: 30.706677 | MS-SSIM: 0.973553
+22-09-07 16:30:26.344 - INFO: Test epoch 39: Average losses: Loss: 2.1392 | MSE loss: 0.0009 | Bpp loss: 0.7542 | Aux loss: 10.08 | PSNR: 31.122896 | MS-SSIM: 0.974903
+22-09-07 16:30:27.058 - INFO: best checkpoint saved.
+22-09-07 16:33:42.309 - INFO: Test epoch 40: Average losses: Loss: 2.1407 | MSE loss: 0.0009 | Bpp loss: 0.7460 | Aux loss: 11.51 | PSNR: 31.182642 | MS-SSIM: 0.974820
+22-09-07 16:36:59.681 - INFO: Test epoch 41: Average losses: Loss: 2.0883 | MSE loss: 0.0008 | Bpp loss: 0.7542 | Aux loss: 9.01 | PSNR: 31.355057 | MS-SSIM: 0.974940
+22-09-07 16:37:00.393 - INFO: best checkpoint saved.
+22-09-07 16:40:21.617 - INFO: Test epoch 42: Average losses: Loss: 2.1228 | MSE loss: 0.0008 | Bpp loss: 0.7618 | Aux loss: 11.19 | PSNR: 31.172891 | MS-SSIM: 0.974375
+22-09-07 16:43:36.836 - INFO: Test epoch 43: Average losses: Loss: 2.0500 | MSE loss: 0.0008 | Bpp loss: 0.7568 | Aux loss: 4.88 | PSNR: 31.535524 | MS-SSIM: 0.975907
+22-09-07 16:43:37.517 - INFO: best checkpoint saved.
+22-09-07 16:47:07.013 - INFO: Test epoch 44: Average losses: Loss: 2.0780 | MSE loss: 0.0008 | Bpp loss: 0.7618 | Aux loss: 16.50 | PSNR: 31.296959 | MS-SSIM: 0.974860
+22-09-07 16:50:40.363 - INFO: Test epoch 45: Average losses: Loss: 2.0480 | MSE loss: 0.0008 | Bpp loss: 0.7630 | Aux loss: 6.93 | PSNR: 31.598639 | MS-SSIM: 0.975829
+22-09-07 16:50:41.080 - INFO: best checkpoint saved.
+22-09-07 16:54:15.491 - INFO: Test epoch 46: Average losses: Loss: 2.0142 | MSE loss: 0.0008 | Bpp loss: 0.7587 | Aux loss: 7.72 | PSNR: 31.652359 | MS-SSIM: 0.975736
+22-09-07 16:54:16.148 - INFO: best checkpoint saved.
+22-09-07 16:57:44.584 - INFO: Test epoch 47: Average losses: Loss: 2.0502 | MSE loss: 0.0008 | Bpp loss: 0.7813 | Aux loss: 8.62 | PSNR: 31.459127 | MS-SSIM: 0.975247
+22-09-07 17:00:23.014 - INFO: Test epoch 48: Average losses: Loss: 2.0107 | MSE loss: 0.0008 | Bpp loss: 0.7890 | Aux loss: 6.82 | PSNR: 31.563736 | MS-SSIM: 0.977312
+22-09-07 17:00:24.049 - INFO: best checkpoint saved.
+22-09-07 17:02:50.551 - INFO: Test epoch 49: Average losses: Loss: 2.0451 | MSE loss: 0.0008 | Bpp loss: 0.7775 | Aux loss: 11.81 | PSNR: 31.688924 | MS-SSIM: 0.976011
+22-09-07 17:05:17.508 - INFO: Test epoch 50: Average losses: Loss: 2.0154 | MSE loss: 0.0008 | Bpp loss: 0.7692 | Aux loss: 4.35 | PSNR: 31.738899 | MS-SSIM: 0.976533
+22-09-07 17:07:46.314 - INFO: Test epoch 51: Average losses: Loss: 1.9929 | MSE loss: 0.0007 | Bpp loss: 0.7803 | Aux loss: 5.84 | PSNR: 31.781178 | MS-SSIM: 0.976108
+22-09-07 17:07:46.964 - INFO: best checkpoint saved.
+22-09-07 17:10:16.563 - INFO: Test epoch 52: Average losses: Loss: 2.0308 | MSE loss: 0.0008 | Bpp loss: 0.7893 | Aux loss: 6.27 | PSNR: 31.438554 | MS-SSIM: 0.976667
+22-09-07 17:12:17.555 - INFO: Test epoch 53: Average losses: Loss: 2.0284 | MSE loss: 0.0008 | Bpp loss: 0.7901 | Aux loss: 5.23 | PSNR: 31.555246 | MS-SSIM: 0.976727
+22-09-07 17:14:50.834 - INFO: Test epoch 54: Average losses: Loss: 2.1610 | MSE loss: 0.0008 | Bpp loss: 0.7935 | Aux loss: 5.92 | PSNR: 31.244762 | MS-SSIM: 0.975367
+22-09-07 17:17:23.939 - INFO: Test epoch 55: Average losses: Loss: 1.9798 | MSE loss: 0.0007 | Bpp loss: 0.7861 | Aux loss: 8.93 | PSNR: 31.803246 | MS-SSIM: 0.976836
+22-09-07 17:17:24.638 - INFO: best checkpoint saved.
+22-09-07 17:19:55.536 - INFO: Test epoch 56: Average losses: Loss: 1.9349 | MSE loss: 0.0007 | Bpp loss: 0.7769 | Aux loss: 3.93 | PSNR: 31.725794 | MS-SSIM: 0.977548
+22-09-07 17:19:56.319 - INFO: best checkpoint saved.
+22-09-07 17:22:24.599 - INFO: Test epoch 57: Average losses: Loss: 2.1204 | MSE loss: 0.0008 | Bpp loss: 0.7911 | Aux loss: 9.86 | PSNR: 31.527344 | MS-SSIM: 0.975735
+22-09-07 17:24:29.217 - INFO: Test epoch 58: Average losses: Loss: 2.0311 | MSE loss: 0.0008 | Bpp loss: 0.7779 | Aux loss: 6.55 | PSNR: 31.786688 | MS-SSIM: 0.977248
+22-09-07 17:26:55.391 - INFO: Test epoch 59: Average losses: Loss: 1.9535 | MSE loss: 0.0007 | Bpp loss: 0.7901 | Aux loss: 7.98 | PSNR: 31.857697 | MS-SSIM: 0.977314
+22-09-07 17:29:26.465 - INFO: Test epoch 60: Average losses: Loss: 1.9883 | MSE loss: 0.0008 | Bpp loss: 0.7674 | Aux loss: 6.71 | PSNR: 31.737253 | MS-SSIM: 0.975650
+22-09-07 17:32:02.145 - INFO: Test epoch 61: Average losses: Loss: 1.9176 | MSE loss: 0.0007 | Bpp loss: 0.7916 | Aux loss: 7.39 | PSNR: 31.904824 | MS-SSIM: 0.977816
+22-09-07 17:32:02.832 - INFO: best checkpoint saved.
+22-09-07 17:34:34.797 - INFO: Test epoch 62: Average losses: Loss: 1.9321 | MSE loss: 0.0007 | Bpp loss: 0.7945 | Aux loss: 8.44 | PSNR: 31.923962 | MS-SSIM: 0.977919
+22-09-07 17:37:03.406 - INFO: Test epoch 63: Average losses: Loss: 1.9863 | MSE loss: 0.0007 | Bpp loss: 0.7912 | Aux loss: 11.35 | PSNR: 31.936061 | MS-SSIM: 0.977180
+22-09-07 17:39:30.773 - INFO: Test epoch 64: Average losses: Loss: 1.9350 | MSE loss: 0.0007 | Bpp loss: 0.7839 | Aux loss: 5.74 | PSNR: 31.934025 | MS-SSIM: 0.977232
+22-09-07 17:41:56.780 - INFO: Test epoch 65: Average losses: Loss: 1.8845 | MSE loss: 0.0007 | Bpp loss: 0.7870 | Aux loss: 8.35 | PSNR: 32.137451 | MS-SSIM: 0.977286
+22-09-07 17:41:57.409 - INFO: best checkpoint saved.
+22-09-07 17:43:58.067 - INFO: Test epoch 66: Average losses: Loss: 1.9030 | MSE loss: 0.0007 | Bpp loss: 0.7974 | Aux loss: 7.60 | PSNR: 31.910620 | MS-SSIM: 0.977986
+22-09-07 17:46:27.341 - INFO: Test epoch 67: Average losses: Loss: 1.9458 | MSE loss: 0.0007 | Bpp loss: 0.7786 | Aux loss: 7.55 | PSNR: 31.906901 | MS-SSIM: 0.976246
+22-09-07 17:48:59.821 - INFO: Test epoch 68: Average losses: Loss: 1.9067 | MSE loss: 0.0007 | Bpp loss: 0.8031 | Aux loss: 9.64 | PSNR: 32.172110 | MS-SSIM: 0.978140
+22-09-07 17:51:26.831 - INFO: Test epoch 69: Average losses: Loss: 1.8789 | MSE loss: 0.0007 | Bpp loss: 0.7951 | Aux loss: 5.22 | PSNR: 32.089641 | MS-SSIM: 0.977665
+22-09-07 17:51:27.431 - INFO: best checkpoint saved.
+22-09-07 17:53:58.862 - INFO: Test epoch 70: Average losses: Loss: 1.8715 | MSE loss: 0.0007 | Bpp loss: 0.7974 | Aux loss: 6.69 | PSNR: 32.266608 | MS-SSIM: 0.977973
+22-09-07 17:53:59.474 - INFO: best checkpoint saved.
+22-09-07 17:56:33.025 - INFO: Test epoch 71: Average losses: Loss: 2.1110 | MSE loss: 0.0008 | Bpp loss: 0.7848 | Aux loss: 5.26 | PSNR: 30.986223 | MS-SSIM: 0.975971
+22-09-07 17:59:03.329 - INFO: Test epoch 72: Average losses: Loss: 1.9683 | MSE loss: 0.0007 | Bpp loss: 0.8135 | Aux loss: 9.53 | PSNR: 31.849349 | MS-SSIM: 0.976187
+22-09-07 18:01:38.457 - INFO: Test epoch 73: Average losses: Loss: 1.8968 | MSE loss: 0.0007 | Bpp loss: 0.7946 | Aux loss: 9.56 | PSNR: 32.036940 | MS-SSIM: 0.977405
+22-09-07 18:04:08.957 - INFO: Test epoch 74: Average losses: Loss: 1.8581 | MSE loss: 0.0006 | Bpp loss: 0.8054 | Aux loss: 7.99 | PSNR: 32.217131 | MS-SSIM: 0.978158
+22-09-07 18:04:09.771 - INFO: best checkpoint saved.
+22-09-07 18:06:39.456 - INFO: Test epoch 75: Average losses: Loss: 1.8858 | MSE loss: 0.0007 | Bpp loss: 0.8045 | Aux loss: 9.16 | PSNR: 32.039353 | MS-SSIM: 0.977891
+22-09-07 18:09:11.630 - INFO: Test epoch 76: Average losses: Loss: 1.8332 | MSE loss: 0.0006 | Bpp loss: 0.8026 | Aux loss: 6.49 | PSNR: 32.404572 | MS-SSIM: 0.978642
+22-09-07 18:09:12.423 - INFO: best checkpoint saved.
+22-09-07 18:11:40.290 - INFO: Test epoch 77: Average losses: Loss: 1.9210 | MSE loss: 0.0007 | Bpp loss: 0.7990 | Aux loss: 5.55 | PSNR: 32.146235 | MS-SSIM: 0.977464
+22-09-07 18:14:07.257 - INFO: Test epoch 78: Average losses: Loss: 1.8878 | MSE loss: 0.0007 | Bpp loss: 0.8111 | Aux loss: 5.72 | PSNR: 32.151622 | MS-SSIM: 0.977314
+22-09-07 18:16:36.986 - INFO: Test epoch 79: Average losses: Loss: 1.8172 | MSE loss: 0.0006 | Bpp loss: 0.8069 | Aux loss: 8.01 | PSNR: 32.469213 | MS-SSIM: 0.978677
+22-09-07 18:16:37.797 - INFO: best checkpoint saved.
+22-09-07 18:18:31.423 - INFO: Test epoch 80: Average losses: Loss: 1.8906 | MSE loss: 0.0007 | Bpp loss: 0.8075 | Aux loss: 11.20 | PSNR: 32.243962 | MS-SSIM: 0.977741
+22-09-07 18:21:01.691 - INFO: Test epoch 81: Average losses: Loss: 1.8497 | MSE loss: 0.0006 | Bpp loss: 0.8032 | Aux loss: 9.82 | PSNR: 32.234696 | MS-SSIM: 0.977840
+22-09-07 18:23:33.501 - INFO: Test epoch 82: Average losses: Loss: 1.8681 | MSE loss: 0.0007 | Bpp loss: 0.8058 | Aux loss: 10.87 | PSNR: 32.286539 | MS-SSIM: 0.978360
+22-09-07 18:26:02.435 - INFO: Test epoch 83: Average losses: Loss: 1.8803 | MSE loss: 0.0007 | Bpp loss: 0.8090 | Aux loss: 6.51 | PSNR: 32.315631 | MS-SSIM: 0.978280
+22-09-07 18:28:31.566 - INFO: Test epoch 84: Average losses: Loss: 1.8413 | MSE loss: 0.0006 | Bpp loss: 0.8039 | Aux loss: 7.57 | PSNR: 32.430046 | MS-SSIM: 0.978577
+22-09-07 18:31:01.809 - INFO: Test epoch 85: Average losses: Loss: 1.8649 | MSE loss: 0.0006 | Bpp loss: 0.8139 | Aux loss: 7.66 | PSNR: 32.299835 | MS-SSIM: 0.977806
+22-09-07 18:33:09.387 - INFO: Test epoch 86: Average losses: Loss: 1.8409 | MSE loss: 0.0006 | Bpp loss: 0.8086 | Aux loss: 4.45 | PSNR: 32.478984 | MS-SSIM: 0.978799
+22-09-07 18:35:37.500 - INFO: Test epoch 87: Average losses: Loss: 1.8014 | MSE loss: 0.0006 | Bpp loss: 0.8077 | Aux loss: 6.84 | PSNR: 32.499585 | MS-SSIM: 0.978686
+22-09-07 18:35:38.155 - INFO: best checkpoint saved.
+22-09-07 18:38:05.814 - INFO: Test epoch 88: Average losses: Loss: 1.9471 | MSE loss: 0.0007 | Bpp loss: 0.8101 | Aux loss: 9.25 | PSNR: 31.757521 | MS-SSIM: 0.977942
+22-09-07 18:40:20.839 - INFO: Test epoch 89: Average losses: Loss: 1.8657 | MSE loss: 0.0006 | Bpp loss: 0.8147 | Aux loss: 7.51 | PSNR: 32.357704 | MS-SSIM: 0.978442
+22-09-07 18:42:49.950 - INFO: Test epoch 90: Average losses: Loss: 2.1925 | MSE loss: 0.0009 | Bpp loss: 0.7994 | Aux loss: 6.92 | PSNR: 30.707057 | MS-SSIM: 0.976701
+22-09-07 18:45:18.331 - INFO: Test epoch 91: Average losses: Loss: 1.8220 | MSE loss: 0.0006 | Bpp loss: 0.8106 | Aux loss: 8.20 | PSNR: 32.508749 | MS-SSIM: 0.978752
+22-09-07 18:47:43.393 - INFO: Test epoch 92: Average losses: Loss: 1.7960 | MSE loss: 0.0006 | Bpp loss: 0.8139 | Aux loss: 6.92 | PSNR: 32.464518 | MS-SSIM: 0.978931
+22-09-07 18:47:44.061 - INFO: best checkpoint saved.
+22-09-07 18:50:16.413 - INFO: Test epoch 93: Average losses: Loss: 1.8162 | MSE loss: 0.0006 | Bpp loss: 0.8102 | Aux loss: 6.97 | PSNR: 32.351278 | MS-SSIM: 0.978823
+22-09-07 18:52:41.696 - INFO: Test epoch 94: Average losses: Loss: 1.7899 | MSE loss: 0.0006 | Bpp loss: 0.8089 | Aux loss: 5.14 | PSNR: 32.509943 | MS-SSIM: 0.978571
+22-09-07 18:52:42.365 - INFO: best checkpoint saved.
+22-09-07 18:55:09.935 - INFO: Test epoch 95: Average losses: Loss: 1.8632 | MSE loss: 0.0006 | Bpp loss: 0.8069 | Aux loss: 7.39 | PSNR: 32.326890 | MS-SSIM: 0.978349
+22-09-07 18:57:10.288 - INFO: Test epoch 96: Average losses: Loss: 1.8576 | MSE loss: 0.0007 | Bpp loss: 0.7869 | Aux loss: 7.38 | PSNR: 32.181207 | MS-SSIM: 0.976127
+22-09-07 18:59:31.655 - INFO: Test epoch 97: Average losses: Loss: 1.8181 | MSE loss: 0.0006 | Bpp loss: 0.8154 | Aux loss: 6.95 | PSNR: 32.429343 | MS-SSIM: 0.978478
+22-09-07 19:02:07.070 - INFO: Test epoch 98: Average losses: Loss: 1.8241 | MSE loss: 0.0006 | Bpp loss: 0.8174 | Aux loss: 7.67 | PSNR: 32.286123 | MS-SSIM: 0.978995
+22-09-07 19:04:49.735 - INFO: Test epoch 99: Average losses: Loss: 1.8040 | MSE loss: 0.0006 | Bpp loss: 0.8070 | Aux loss: 6.41 | PSNR: 32.507242 | MS-SSIM: 0.978265
+22-09-07 19:07:06.926 - INFO: Test epoch 100: Average losses: Loss: 1.7947 | MSE loss: 0.0006 | Bpp loss: 0.8194 | Aux loss: 5.30 | PSNR: 32.573575 | MS-SSIM: 0.978714
+22-09-07 19:09:22.663 - INFO: Test epoch 101: Average losses: Loss: 1.9490 | MSE loss: 0.0007 | Bpp loss: 0.7936 | Aux loss: 6.63 | PSNR: 31.889110 | MS-SSIM: 0.977557
+22-09-07 19:11:17.327 - INFO: Test epoch 102: Average losses: Loss: 1.8016 | MSE loss: 0.0006 | Bpp loss: 0.8173 | Aux loss: 6.63 | PSNR: 32.444947 | MS-SSIM: 0.979278
+22-09-07 19:13:27.623 - INFO: Test epoch 103: Average losses: Loss: 1.7949 | MSE loss: 0.0006 | Bpp loss: 0.8100 | Aux loss: 7.75 | PSNR: 32.491385 | MS-SSIM: 0.978422
+22-09-07 19:15:34.855 - INFO: Test epoch 104: Average losses: Loss: 2.1053 | MSE loss: 0.0008 | Bpp loss: 0.8211 | Aux loss: 7.03 | PSNR: 31.697969 | MS-SSIM: 0.976563
+22-09-07 19:17:46.219 - INFO: Test epoch 105: Average losses: Loss: 1.8552 | MSE loss: 0.0006 | Bpp loss: 0.8114 | Aux loss: 7.66 | PSNR: 32.157980 | MS-SSIM: 0.977939
+22-09-07 19:20:12.474 - INFO: Test epoch 106: Average losses: Loss: 1.7702 | MSE loss: 0.0006 | Bpp loss: 0.8222 | Aux loss: 7.15 | PSNR: 32.770770 | MS-SSIM: 0.979465
+22-09-07 19:20:13.188 - INFO: best checkpoint saved.
+22-09-07 19:22:39.870 - INFO: Test epoch 107: Average losses: Loss: 1.8081 | MSE loss: 0.0006 | Bpp loss: 0.8027 | Aux loss: 7.29 | PSNR: 32.455492 | MS-SSIM: 0.978177
+22-09-07 19:25:08.609 - INFO: Test epoch 108: Average losses: Loss: 1.8831 | MSE loss: 0.0007 | Bpp loss: 0.8145 | Aux loss: 9.79 | PSNR: 32.296658 | MS-SSIM: 0.977999
+22-09-07 19:27:41.083 - INFO: Test epoch 109: Average losses: Loss: 1.8836 | MSE loss: 0.0007 | Bpp loss: 0.8184 | Aux loss: 6.90 | PSNR: 32.365477 | MS-SSIM: 0.978396
+22-09-07 19:30:08.271 - INFO: Test epoch 110: Average losses: Loss: 1.7889 | MSE loss: 0.0006 | Bpp loss: 0.8199 | Aux loss: 10.55 | PSNR: 32.561522 | MS-SSIM: 0.979089
+22-09-07 19:32:34.037 - INFO: Test epoch 111: Average losses: Loss: 1.8307 | MSE loss: 0.0006 | Bpp loss: 0.8089 | Aux loss: 7.06 | PSNR: 32.434049 | MS-SSIM: 0.978572
+22-09-07 19:35:01.634 - INFO: Test epoch 112: Average losses: Loss: 1.8336 | MSE loss: 0.0006 | Bpp loss: 0.8204 | Aux loss: 6.48 | PSNR: 32.314118 | MS-SSIM: 0.979214
+22-09-07 19:37:28.208 - INFO: Test epoch 113: Average losses: Loss: 1.8134 | MSE loss: 0.0006 | Bpp loss: 0.8216 | Aux loss: 8.24 | PSNR: 32.591537 | MS-SSIM: 0.979395
+22-09-07 19:39:55.191 - INFO: Test epoch 114: Average losses: Loss: 1.7616 | MSE loss: 0.0006 | Bpp loss: 0.8206 | Aux loss: 7.48 | PSNR: 32.713873 | MS-SSIM: 0.979207
+22-09-07 19:39:55.887 - INFO: best checkpoint saved.
+22-09-07 19:42:19.801 - INFO: Test epoch 115: Average losses: Loss: 1.7597 | MSE loss: 0.0006 | Bpp loss: 0.8088 | Aux loss: 4.15 | PSNR: 32.560297 | MS-SSIM: 0.979491
+22-09-07 19:42:20.421 - INFO: best checkpoint saved.
+22-09-07 19:44:41.746 - INFO: Test epoch 116: Average losses: Loss: 1.8402 | MSE loss: 0.0006 | Bpp loss: 0.8088 | Aux loss: 7.02 | PSNR: 32.120854 | MS-SSIM: 0.978599
+22-09-07 19:47:14.085 - INFO: Test epoch 117: Average losses: Loss: 1.7890 | MSE loss: 0.0006 | Bpp loss: 0.8182 | Aux loss: 7.09 | PSNR: 32.743742 | MS-SSIM: 0.979798
+22-09-07 19:49:36.648 - INFO: Test epoch 118: Average losses: Loss: 1.7704 | MSE loss: 0.0006 | Bpp loss: 0.8175 | Aux loss: 7.51 | PSNR: 32.600024 | MS-SSIM: 0.979490
+22-09-07 19:52:18.104 - INFO: Test epoch 119: Average losses: Loss: 1.8161 | MSE loss: 0.0006 | Bpp loss: 0.8198 | Aux loss: 19.03 | PSNR: 32.613315 | MS-SSIM: 0.978974
+22-09-07 19:55:00.488 - INFO: Test epoch 120: Average losses: Loss: 1.8149 | MSE loss: 0.0006 | Bpp loss: 0.8088 | Aux loss: 8.22 | PSNR: 32.377249 | MS-SSIM: 0.978013
+22-09-07 19:57:38.583 - INFO: Test epoch 121: Average losses: Loss: 1.8195 | MSE loss: 0.0006 | Bpp loss: 0.8203 | Aux loss: 8.29 | PSNR: 32.339587 | MS-SSIM: 0.978984
+22-09-07 20:00:12.611 - INFO: Test epoch 122: Average losses: Loss: 1.7963 | MSE loss: 0.0006 | Bpp loss: 0.8276 | Aux loss: 6.26 | PSNR: 32.606507 | MS-SSIM: 0.978884
+22-09-07 20:02:47.008 - INFO: Test epoch 123: Average losses: Loss: 1.7863 | MSE loss: 0.0006 | Bpp loss: 0.8253 | Aux loss: 6.10 | PSNR: 32.764489 | MS-SSIM: 0.979614
+22-09-07 20:05:26.451 - INFO: Test epoch 124: Average losses: Loss: 1.7861 | MSE loss: 0.0006 | Bpp loss: 0.8068 | Aux loss: 6.50 | PSNR: 32.394494 | MS-SSIM: 0.978788
+22-09-07 20:08:07.077 - INFO: Test epoch 125: Average losses: Loss: 1.9132 | MSE loss: 0.0007 | Bpp loss: 0.8169 | Aux loss: 10.12 | PSNR: 32.235644 | MS-SSIM: 0.978240
+22-09-07 20:10:23.608 - INFO: Test epoch 126: Average losses: Loss: 1.7623 | MSE loss: 0.0006 | Bpp loss: 0.8228 | Aux loss: 11.15 | PSNR: 32.739455 | MS-SSIM: 0.979032
+22-09-07 20:12:37.247 - INFO: Test epoch 127: Average losses: Loss: 1.8150 | MSE loss: 0.0006 | Bpp loss: 0.7989 | Aux loss: 6.53 | PSNR: 32.371248 | MS-SSIM: 0.977582
+22-09-07 20:15:08.666 - INFO: Test epoch 128: Average losses: Loss: 1.7491 | MSE loss: 0.0006 | Bpp loss: 0.8238 | Aux loss: 8.10 | PSNR: 32.843338 | MS-SSIM: 0.979893
+22-09-07 20:15:09.332 - INFO: best checkpoint saved.
+22-09-07 20:17:36.476 - INFO: Test epoch 129: Average losses: Loss: 1.8577 | MSE loss: 0.0006 | Bpp loss: 0.8180 | Aux loss: 6.72 | PSNR: 32.247555 | MS-SSIM: 0.978390
+22-09-07 20:19:40.410 - INFO: Test epoch 130: Average losses: Loss: 1.7313 | MSE loss: 0.0006 | Bpp loss: 0.8116 | Aux loss: 5.26 | PSNR: 32.881803 | MS-SSIM: 0.979631
+22-09-07 20:19:41.066 - INFO: best checkpoint saved.
+22-09-07 20:22:08.171 - INFO: Test epoch 131: Average losses: Loss: 1.7646 | MSE loss: 0.0006 | Bpp loss: 0.8166 | Aux loss: 8.59 | PSNR: 32.668169 | MS-SSIM: 0.979054
+22-09-07 20:24:30.893 - INFO: Test epoch 132: Average losses: Loss: 1.7596 | MSE loss: 0.0006 | Bpp loss: 0.8179 | Aux loss: 6.54 | PSNR: 32.533133 | MS-SSIM: 0.979743
+22-09-07 20:26:54.557 - INFO: Test epoch 133: Average losses: Loss: 1.7305 | MSE loss: 0.0006 | Bpp loss: 0.8196 | Aux loss: 11.28 | PSNR: 32.802094 | MS-SSIM: 0.979630
+22-09-07 20:26:55.160 - INFO: best checkpoint saved.
+22-09-07 20:28:43.727 - INFO: Test epoch 134: Average losses: Loss: 1.7261 | MSE loss: 0.0006 | Bpp loss: 0.8284 | Aux loss: 9.85 | PSNR: 32.875276 | MS-SSIM: 0.979937
+22-09-07 20:28:44.348 - INFO: best checkpoint saved.
+22-09-07 20:31:03.440 - INFO: Test epoch 135: Average losses: Loss: 1.7620 | MSE loss: 0.0006 | Bpp loss: 0.8261 | Aux loss: 8.37 | PSNR: 32.739660 | MS-SSIM: 0.979611
+22-09-07 20:33:28.079 - INFO: Test epoch 136: Average losses: Loss: 1.7956 | MSE loss: 0.0006 | Bpp loss: 0.8292 | Aux loss: 7.90 | PSNR: 32.516560 | MS-SSIM: 0.979165
+22-09-07 20:35:51.408 - INFO: Test epoch 137: Average losses: Loss: 1.7493 | MSE loss: 0.0006 | Bpp loss: 0.8230 | Aux loss: 6.77 | PSNR: 32.622023 | MS-SSIM: 0.979850
+22-09-07 20:38:13.008 - INFO: Test epoch 138: Average losses: Loss: 1.7944 | MSE loss: 0.0006 | Bpp loss: 0.8271 | Aux loss: 7.29 | PSNR: 32.380157 | MS-SSIM: 0.979801
+22-09-07 20:40:40.305 - INFO: Test epoch 139: Average losses: Loss: 1.7748 | MSE loss: 0.0006 | Bpp loss: 0.8372 | Aux loss: 9.66 | PSNR: 32.583287 | MS-SSIM: 0.979838
+22-09-07 20:43:02.135 - INFO: Test epoch 140: Average losses: Loss: 1.7597 | MSE loss: 0.0006 | Bpp loss: 0.8252 | Aux loss: 5.62 | PSNR: 32.800272 | MS-SSIM: 0.979438
+22-09-07 20:45:29.888 - INFO: Test epoch 141: Average losses: Loss: 1.8058 | MSE loss: 0.0006 | Bpp loss: 0.8166 | Aux loss: 5.85 | PSNR: 32.620595 | MS-SSIM: 0.979106
+22-09-07 20:47:43.060 - INFO: Test epoch 142: Average losses: Loss: 1.7443 | MSE loss: 0.0006 | Bpp loss: 0.8271 | Aux loss: 7.19 | PSNR: 32.762437 | MS-SSIM: 0.980043
+22-09-07 20:50:10.175 - INFO: Test epoch 143: Average losses: Loss: 1.8339 | MSE loss: 0.0006 | Bpp loss: 0.8307 | Aux loss: 5.80 | PSNR: 32.335177 | MS-SSIM: 0.978168
+22-09-07 20:52:15.870 - INFO: Test epoch 144: Average losses: Loss: 1.7887 | MSE loss: 0.0006 | Bpp loss: 0.8278 | Aux loss: 11.77 | PSNR: 32.581293 | MS-SSIM: 0.979403
+22-09-07 20:54:38.467 - INFO: Test epoch 145: Average losses: Loss: 1.8075 | MSE loss: 0.0006 | Bpp loss: 0.8203 | Aux loss: 8.22 | PSNR: 32.599883 | MS-SSIM: 0.979619
+22-09-07 20:57:06.092 - INFO: Test epoch 146: Average losses: Loss: 1.7594 | MSE loss: 0.0006 | Bpp loss: 0.8221 | Aux loss: 10.14 | PSNR: 32.764222 | MS-SSIM: 0.979433
+22-09-07 20:59:33.176 - INFO: Test epoch 147: Average losses: Loss: 1.7894 | MSE loss: 0.0006 | Bpp loss: 0.8302 | Aux loss: 7.24 | PSNR: 32.475733 | MS-SSIM: 0.979515
+22-09-07 21:02:01.257 - INFO: Test epoch 148: Average losses: Loss: 1.7242 | MSE loss: 0.0006 | Bpp loss: 0.8277 | Aux loss: 7.67 | PSNR: 32.839794 | MS-SSIM: 0.980111
+22-09-07 21:02:01.886 - INFO: best checkpoint saved.
+22-09-07 21:04:30.129 - INFO: Test epoch 149: Average losses: Loss: 1.7564 | MSE loss: 0.0006 | Bpp loss: 0.8290 | Aux loss: 10.36 | PSNR: 32.872999 | MS-SSIM: 0.979658
+22-09-07 21:06:52.814 - INFO: Test epoch 150: Average losses: Loss: 1.7393 | MSE loss: 0.0006 | Bpp loss: 0.8128 | Aux loss: 7.72 | PSNR: 32.776293 | MS-SSIM: 0.979128
+22-09-07 21:09:09.908 - INFO: Test epoch 151: Average losses: Loss: 1.7279 | MSE loss: 0.0006 | Bpp loss: 0.8283 | Aux loss: 6.26 | PSNR: 32.783397 | MS-SSIM: 0.980107
+22-09-07 21:11:35.148 - INFO: Test epoch 152: Average losses: Loss: 1.7070 | MSE loss: 0.0005 | Bpp loss: 0.8261 | Aux loss: 8.22 | PSNR: 32.903826 | MS-SSIM: 0.979937
+22-09-07 21:11:35.806 - INFO: best checkpoint saved.
+22-09-07 21:13:25.224 - INFO: Test epoch 153: Average losses: Loss: 1.6924 | MSE loss: 0.0005 | Bpp loss: 0.8273 | Aux loss: 7.63 | PSNR: 33.038915 | MS-SSIM: 0.980849
+22-09-07 21:13:25.877 - INFO: best checkpoint saved.
+22-09-07 21:15:31.107 - INFO: Test epoch 154: Average losses: Loss: 1.7566 | MSE loss: 0.0006 | Bpp loss: 0.8228 | Aux loss: 8.79 | PSNR: 32.826723 | MS-SSIM: 0.979571
+22-09-07 21:17:51.266 - INFO: Test epoch 155: Average losses: Loss: 1.7507 | MSE loss: 0.0006 | Bpp loss: 0.8181 | Aux loss: 6.50 | PSNR: 32.603287 | MS-SSIM: 0.979220
+22-09-07 21:20:18.620 - INFO: Test epoch 156: Average losses: Loss: 1.7082 | MSE loss: 0.0005 | Bpp loss: 0.8288 | Aux loss: 10.40 | PSNR: 32.966489 | MS-SSIM: 0.980175
+22-09-07 21:22:56.105 - INFO: Test epoch 157: Average losses: Loss: 1.7656 | MSE loss: 0.0006 | Bpp loss: 0.8149 | Aux loss: 5.99 | PSNR: 32.541382 | MS-SSIM: 0.979433
+22-09-07 21:25:30.888 - INFO: Test epoch 158: Average losses: Loss: 1.7672 | MSE loss: 0.0006 | Bpp loss: 0.8339 | Aux loss: 11.46 | PSNR: 32.882301 | MS-SSIM: 0.979930
+22-09-07 21:28:00.978 - INFO: Test epoch 159: Average losses: Loss: 1.8210 | MSE loss: 0.0006 | Bpp loss: 0.8150 | Aux loss: 6.76 | PSNR: 32.400270 | MS-SSIM: 0.979092
+22-09-07 21:30:19.847 - INFO: Test epoch 160: Average losses: Loss: 1.7044 | MSE loss: 0.0005 | Bpp loss: 0.8200 | Aux loss: 6.96 | PSNR: 33.011375 | MS-SSIM: 0.980264
+22-09-07 21:32:49.119 - INFO: Test epoch 161: Average losses: Loss: 1.8300 | MSE loss: 0.0006 | Bpp loss: 0.8235 | Aux loss: 7.14 | PSNR: 32.444219 | MS-SSIM: 0.979243
+22-09-07 21:35:16.043 - INFO: Test epoch 162: Average losses: Loss: 1.7914 | MSE loss: 0.0006 | Bpp loss: 0.8153 | Aux loss: 5.89 | PSNR: 32.523614 | MS-SSIM: 0.978845
+22-09-07 21:37:42.586 - INFO: Test epoch 163: Average losses: Loss: 1.7652 | MSE loss: 0.0006 | Bpp loss: 0.8149 | Aux loss: 6.58 | PSNR: 32.790761 | MS-SSIM: 0.979711
+22-09-07 21:40:16.475 - INFO: Test epoch 164: Average losses: Loss: 1.7758 | MSE loss: 0.0006 | Bpp loss: 0.8242 | Aux loss: 8.34 | PSNR: 32.819025 | MS-SSIM: 0.979870
+22-09-07 21:42:55.249 - INFO: Test epoch 165: Average losses: Loss: 1.8486 | MSE loss: 0.0006 | Bpp loss: 0.8309 | Aux loss: 4.71 | PSNR: 32.602037 | MS-SSIM: 0.980069
+22-09-07 21:45:24.574 - INFO: Test epoch 166: Average losses: Loss: 1.6952 | MSE loss: 0.0005 | Bpp loss: 0.8223 | Aux loss: 7.61 | PSNR: 33.016966 | MS-SSIM: 0.980103
+22-09-07 21:47:51.728 - INFO: Test epoch 167: Average losses: Loss: 1.7120 | MSE loss: 0.0005 | Bpp loss: 0.8341 | Aux loss: 12.08 | PSNR: 33.066722 | MS-SSIM: 0.980189
+22-09-07 21:50:02.814 - INFO: Test epoch 168: Average losses: Loss: 1.6853 | MSE loss: 0.0005 | Bpp loss: 0.8274 | Aux loss: 9.57 | PSNR: 33.087753 | MS-SSIM: 0.980642
+22-09-07 21:50:03.461 - INFO: best checkpoint saved.
+22-09-07 21:52:29.392 - INFO: Test epoch 169: Average losses: Loss: 1.7687 | MSE loss: 0.0006 | Bpp loss: 0.8187 | Aux loss: 9.66 | PSNR: 32.634635 | MS-SSIM: 0.979233
+22-09-07 21:54:57.861 - INFO: Test epoch 170: Average losses: Loss: 1.7535 | MSE loss: 0.0006 | Bpp loss: 0.8149 | Aux loss: 7.55 | PSNR: 32.746918 | MS-SSIM: 0.979410
+22-09-07 21:57:24.962 - INFO: Test epoch 171: Average losses: Loss: 1.7261 | MSE loss: 0.0006 | Bpp loss: 0.8299 | Aux loss: 11.20 | PSNR: 32.909246 | MS-SSIM: 0.979847
+22-09-07 21:59:52.279 - INFO: Test epoch 172: Average losses: Loss: 1.6950 | MSE loss: 0.0005 | Bpp loss: 0.8234 | Aux loss: 5.88 | PSNR: 32.897003 | MS-SSIM: 0.980475
+22-09-07 22:02:10.622 - INFO: Test epoch 173: Average losses: Loss: 1.7138 | MSE loss: 0.0005 | Bpp loss: 0.8321 | Aux loss: 9.34 | PSNR: 33.039524 | MS-SSIM: 0.980530
+22-09-07 22:04:42.123 - INFO: Test epoch 174: Average losses: Loss: 1.7446 | MSE loss: 0.0006 | Bpp loss: 0.8208 | Aux loss: 13.49 | PSNR: 32.662776 | MS-SSIM: 0.979039
+22-09-07 22:07:08.351 - INFO: Test epoch 175: Average losses: Loss: 1.7324 | MSE loss: 0.0006 | Bpp loss: 0.8187 | Aux loss: 11.64 | PSNR: 32.799751 | MS-SSIM: 0.979628
+22-09-07 22:09:13.906 - INFO: Test epoch 176: Average losses: Loss: 1.7319 | MSE loss: 0.0006 | Bpp loss: 0.8171 | Aux loss: 5.49 | PSNR: 32.892538 | MS-SSIM: 0.979702
+22-09-07 22:11:33.884 - INFO: Test epoch 177: Average losses: Loss: 1.7119 | MSE loss: 0.0005 | Bpp loss: 0.8188 | Aux loss: 6.26 | PSNR: 32.735025 | MS-SSIM: 0.980083
+22-09-07 22:13:56.508 - INFO: Test epoch 178: Average losses: Loss: 1.7216 | MSE loss: 0.0006 | Bpp loss: 0.8247 | Aux loss: 7.45 | PSNR: 32.887327 | MS-SSIM: 0.979879
+22-09-07 22:16:18.854 - INFO: Test epoch 179: Average losses: Loss: 1.7386 | MSE loss: 0.0006 | Bpp loss: 0.8170 | Aux loss: 9.46 | PSNR: 32.725562 | MS-SSIM: 0.979140
+22-09-07 22:18:46.227 - INFO: Test epoch 180: Average losses: Loss: 1.6780 | MSE loss: 0.0005 | Bpp loss: 0.8160 | Aux loss: 5.03 | PSNR: 33.087091 | MS-SSIM: 0.980354
+22-09-07 22:18:46.901 - INFO: best checkpoint saved.
+22-09-07 22:21:13.446 - INFO: Test epoch 181: Average losses: Loss: 1.6839 | MSE loss: 0.0005 | Bpp loss: 0.8233 | Aux loss: 7.13 | PSNR: 33.038529 | MS-SSIM: 0.980606
+22-09-07 22:24:44.185 - INFO: Test epoch 182: Average losses: Loss: 1.7528 | MSE loss: 0.0006 | Bpp loss: 0.8146 | Aux loss: 6.10 | PSNR: 32.535822 | MS-SSIM: 0.979250
+22-09-07 22:28:05.322 - INFO: Test epoch 183: Average losses: Loss: 1.7550 | MSE loss: 0.0006 | Bpp loss: 0.8201 | Aux loss: 8.43 | PSNR: 32.627557 | MS-SSIM: 0.979201
+22-09-07 22:31:25.480 - INFO: Test epoch 184: Average losses: Loss: 1.7620 | MSE loss: 0.0006 | Bpp loss: 0.8252 | Aux loss: 10.50 | PSNR: 32.796458 | MS-SSIM: 0.979885
+22-09-07 22:34:48.084 - INFO: Test epoch 185: Average losses: Loss: 1.6673 | MSE loss: 0.0005 | Bpp loss: 0.8238 | Aux loss: 5.83 | PSNR: 33.155991 | MS-SSIM: 0.980457
+22-09-07 22:34:48.856 - INFO: best checkpoint saved.
+22-09-07 22:38:32.329 - INFO: Test epoch 186: Average losses: Loss: 1.6717 | MSE loss: 0.0005 | Bpp loss: 0.8228 | Aux loss: 6.06 | PSNR: 33.046585 | MS-SSIM: 0.980742
+22-09-07 22:42:16.790 - INFO: Test epoch 187: Average losses: Loss: 1.7846 | MSE loss: 0.0006 | Bpp loss: 0.8259 | Aux loss: 6.87 | PSNR: 32.484762 | MS-SSIM: 0.979092
+22-09-07 22:46:03.246 - INFO: Test epoch 188: Average losses: Loss: 1.6795 | MSE loss: 0.0005 | Bpp loss: 0.8245 | Aux loss: 7.53 | PSNR: 33.060278 | MS-SSIM: 0.980516
+22-09-07 22:49:48.614 - INFO: Test epoch 189: Average losses: Loss: 1.7006 | MSE loss: 0.0005 | Bpp loss: 0.8222 | Aux loss: 7.73 | PSNR: 32.922797 | MS-SSIM: 0.979861
+22-09-07 22:53:36.342 - INFO: Test epoch 190: Average losses: Loss: 1.7271 | MSE loss: 0.0006 | Bpp loss: 0.8141 | Aux loss: 9.33 | PSNR: 32.736088 | MS-SSIM: 0.979011
+22-09-07 22:57:20.713 - INFO: Test epoch 191: Average losses: Loss: 1.7250 | MSE loss: 0.0005 | Bpp loss: 0.8335 | Aux loss: 5.47 | PSNR: 32.819223 | MS-SSIM: 0.980517
+22-09-07 23:01:17.536 - INFO: Test epoch 192: Average losses: Loss: 1.6919 | MSE loss: 0.0005 | Bpp loss: 0.8175 | Aux loss: 18.98 | PSNR: 32.974011 | MS-SSIM: 0.979637
+22-09-07 23:05:12.005 - INFO: Test epoch 193: Average losses: Loss: 1.7090 | MSE loss: 0.0005 | Bpp loss: 0.8331 | Aux loss: 6.79 | PSNR: 33.048471 | MS-SSIM: 0.980223
+22-09-07 23:09:00.116 - INFO: Test epoch 194: Average losses: Loss: 1.7560 | MSE loss: 0.0006 | Bpp loss: 0.8324 | Aux loss: 8.21 | PSNR: 32.619316 | MS-SSIM: 0.980133
+22-09-07 23:12:47.300 - INFO: Test epoch 195: Average losses: Loss: 1.6924 | MSE loss: 0.0005 | Bpp loss: 0.8209 | Aux loss: 8.98 | PSNR: 32.977425 | MS-SSIM: 0.979831
+22-09-07 23:16:31.764 - INFO: Test epoch 196: Average losses: Loss: 1.6837 | MSE loss: 0.0005 | Bpp loss: 0.8267 | Aux loss: 11.36 | PSNR: 33.032952 | MS-SSIM: 0.980544
+22-09-07 23:20:17.816 - INFO: Test epoch 197: Average losses: Loss: 1.7062 | MSE loss: 0.0005 | Bpp loss: 0.8156 | Aux loss: 6.89 | PSNR: 32.818035 | MS-SSIM: 0.980312
+22-09-07 23:24:05.053 - INFO: Test epoch 198: Average losses: Loss: 1.6750 | MSE loss: 0.0005 | Bpp loss: 0.8274 | Aux loss: 11.11 | PSNR: 33.188233 | MS-SSIM: 0.980825
+22-09-07 23:27:49.731 - INFO: Test epoch 199: Average losses: Loss: 1.7496 | MSE loss: 0.0006 | Bpp loss: 0.8229 | Aux loss: 8.93 | PSNR: 32.876347 | MS-SSIM: 0.979688
+22-09-07 23:31:38.934 - INFO: Test epoch 200: Average losses: Loss: 1.7317 | MSE loss: 0.0006 | Bpp loss: 0.8175 | Aux loss: 5.14 | PSNR: 32.699705 | MS-SSIM: 0.979699
+22-09-07 23:35:26.814 - INFO: Test epoch 201: Average losses: Loss: 1.7076 | MSE loss: 0.0005 | Bpp loss: 0.8381 | Aux loss: 8.58 | PSNR: 33.072266 | MS-SSIM: 0.980435
+22-09-07 23:39:16.712 - INFO: Test epoch 202: Average losses: Loss: 1.7212 | MSE loss: 0.0006 | Bpp loss: 0.8239 | Aux loss: 9.36 | PSNR: 32.916081 | MS-SSIM: 0.979888
+22-09-07 23:43:12.233 - INFO: Test epoch 203: Average losses: Loss: 1.8077 | MSE loss: 0.0006 | Bpp loss: 0.7919 | Aux loss: 5.41 | PSNR: 32.155469 | MS-SSIM: 0.977767
+22-09-07 23:46:59.088 - INFO: Test epoch 204: Average losses: Loss: 1.7245 | MSE loss: 0.0006 | Bpp loss: 0.8183 | Aux loss: 5.98 | PSNR: 32.578731 | MS-SSIM: 0.979906
+22-09-07 23:50:54.495 - INFO: Test epoch 205: Average losses: Loss: 1.6874 | MSE loss: 0.0005 | Bpp loss: 0.8302 | Aux loss: 6.46 | PSNR: 33.086584 | MS-SSIM: 0.980561
+22-09-07 23:54:43.688 - INFO: Test epoch 206: Average losses: Loss: 1.6971 | MSE loss: 0.0005 | Bpp loss: 0.8248 | Aux loss: 6.27 | PSNR: 32.865659 | MS-SSIM: 0.980644
+22-09-07 23:58:32.109 - INFO: Test epoch 207: Average losses: Loss: 1.6933 | MSE loss: 0.0005 | Bpp loss: 0.8279 | Aux loss: 9.51 | PSNR: 33.032087 | MS-SSIM: 0.980557
+22-09-08 00:02:23.668 - INFO: Test epoch 208: Average losses: Loss: 1.8605 | MSE loss: 0.0006 | Bpp loss: 0.8210 | Aux loss: 5.40 | PSNR: 32.081763 | MS-SSIM: 0.979115
+22-09-08 00:06:10.040 - INFO: Test epoch 209: Average losses: Loss: 1.7266 | MSE loss: 0.0006 | Bpp loss: 0.8256 | Aux loss: 9.16 | PSNR: 33.005887 | MS-SSIM: 0.980270
+22-09-08 00:09:44.765 - INFO: Test epoch 210: Average losses: Loss: 1.7916 | MSE loss: 0.0006 | Bpp loss: 0.8154 | Aux loss: 4.69 | PSNR: 32.239380 | MS-SSIM: 0.979851
+22-09-08 00:13:18.806 - INFO: Test epoch 211: Average losses: Loss: 1.6996 | MSE loss: 0.0005 | Bpp loss: 0.8294 | Aux loss: 8.65 | PSNR: 33.123857 | MS-SSIM: 0.980358
+22-09-08 00:16:50.679 - INFO: Test epoch 212: Average losses: Loss: 1.6896 | MSE loss: 0.0005 | Bpp loss: 0.8261 | Aux loss: 10.67 | PSNR: 32.962291 | MS-SSIM: 0.979993
+22-09-08 00:20:26.252 - INFO: Test epoch 213: Average losses: Loss: 1.7030 | MSE loss: 0.0005 | Bpp loss: 0.8289 | Aux loss: 8.15 | PSNR: 32.836437 | MS-SSIM: 0.980443
+22-09-08 00:24:00.840 - INFO: Test epoch 214: Average losses: Loss: 1.6902 | MSE loss: 0.0005 | Bpp loss: 0.8204 | Aux loss: 7.64 | PSNR: 33.084925 | MS-SSIM: 0.980434
+22-09-08 00:27:35.884 - INFO: Test epoch 215: Average losses: Loss: 1.7403 | MSE loss: 0.0006 | Bpp loss: 0.8212 | Aux loss: 4.83 | PSNR: 32.591373 | MS-SSIM: 0.979884
+22-09-08 00:31:10.962 - INFO: Test epoch 216: Average losses: Loss: 1.6774 | MSE loss: 0.0005 | Bpp loss: 0.8287 | Aux loss: 8.62 | PSNR: 33.050636 | MS-SSIM: 0.980723
+22-09-08 00:34:45.405 - INFO: Test epoch 217: Average losses: Loss: 1.6613 | MSE loss: 0.0005 | Bpp loss: 0.8274 | Aux loss: 8.66 | PSNR: 33.180416 | MS-SSIM: 0.980961
+22-09-08 00:34:46.064 - INFO: best checkpoint saved.
+22-09-08 00:38:19.826 - INFO: Test epoch 218: Average losses: Loss: 1.7206 | MSE loss: 0.0006 | Bpp loss: 0.8121 | Aux loss: 9.62 | PSNR: 32.839653 | MS-SSIM: 0.979689
+22-09-08 00:42:02.735 - INFO: Test epoch 219: Average losses: Loss: 1.6922 | MSE loss: 0.0005 | Bpp loss: 0.8216 | Aux loss: 8.72 | PSNR: 32.900963 | MS-SSIM: 0.979913
+22-09-08 00:45:35.936 - INFO: Test epoch 220: Average losses: Loss: 1.7685 | MSE loss: 0.0006 | Bpp loss: 0.8093 | Aux loss: 6.23 | PSNR: 32.546443 | MS-SSIM: 0.978021
+22-09-08 00:49:08.976 - INFO: Test epoch 221: Average losses: Loss: 1.6616 | MSE loss: 0.0005 | Bpp loss: 0.8320 | Aux loss: 9.04 | PSNR: 33.203565 | MS-SSIM: 0.980950
+22-09-08 00:52:41.665 - INFO: Test epoch 222: Average losses: Loss: 1.7278 | MSE loss: 0.0006 | Bpp loss: 0.8075 | Aux loss: 7.40 | PSNR: 32.788906 | MS-SSIM: 0.978567
+22-09-08 00:56:15.054 - INFO: Test epoch 223: Average losses: Loss: 1.6876 | MSE loss: 0.0005 | Bpp loss: 0.8306 | Aux loss: 8.85 | PSNR: 33.053997 | MS-SSIM: 0.980171
+22-09-08 01:00:03.055 - INFO: Test epoch 224: Average losses: Loss: 1.7111 | MSE loss: 0.0005 | Bpp loss: 0.8276 | Aux loss: 9.40 | PSNR: 32.868442 | MS-SSIM: 0.979894
+22-09-08 01:03:50.536 - INFO: Test epoch 225: Average losses: Loss: 1.6563 | MSE loss: 0.0005 | Bpp loss: 0.8268 | Aux loss: 8.43 | PSNR: 33.186799 | MS-SSIM: 0.980969
+22-09-08 01:03:51.290 - INFO: best checkpoint saved.
+22-09-08 01:07:31.502 - INFO: Test epoch 226: Average losses: Loss: 1.6851 | MSE loss: 0.0005 | Bpp loss: 0.8099 | Aux loss: 8.14 | PSNR: 32.976616 | MS-SSIM: 0.979849
+22-09-08 01:11:10.977 - INFO: Test epoch 227: Average losses: Loss: 1.6684 | MSE loss: 0.0005 | Bpp loss: 0.8269 | Aux loss: 7.43 | PSNR: 33.172030 | MS-SSIM: 0.980668
+22-09-08 01:14:51.990 - INFO: Test epoch 228: Average losses: Loss: 1.6737 | MSE loss: 0.0005 | Bpp loss: 0.8209 | Aux loss: 6.68 | PSNR: 33.118997 | MS-SSIM: 0.980653
+22-09-08 01:18:31.365 - INFO: Test epoch 229: Average losses: Loss: 1.7152 | MSE loss: 0.0005 | Bpp loss: 0.8236 | Aux loss: 7.58 | PSNR: 32.851977 | MS-SSIM: 0.979813
+22-09-08 01:22:10.001 - INFO: Test epoch 230: Average losses: Loss: 1.6791 | MSE loss: 0.0005 | Bpp loss: 0.8295 | Aux loss: 6.64 | PSNR: 33.199438 | MS-SSIM: 0.980782
+22-09-08 01:25:49.662 - INFO: Test epoch 231: Average losses: Loss: 1.7496 | MSE loss: 0.0006 | Bpp loss: 0.8229 | Aux loss: 5.87 | PSNR: 32.606622 | MS-SSIM: 0.980155
+22-09-08 01:29:24.801 - INFO: Test epoch 232: Average losses: Loss: 1.6557 | MSE loss: 0.0005 | Bpp loss: 0.8250 | Aux loss: 5.76 | PSNR: 33.256229 | MS-SSIM: 0.980810
+22-09-08 01:29:25.432 - INFO: best checkpoint saved.
+22-09-08 01:33:00.233 - INFO: Test epoch 233: Average losses: Loss: 1.6903 | MSE loss: 0.0005 | Bpp loss: 0.8186 | Aux loss: 6.09 | PSNR: 33.084152 | MS-SSIM: 0.980553
+22-09-08 01:36:33.553 - INFO: Test epoch 234: Average losses: Loss: 1.6472 | MSE loss: 0.0005 | Bpp loss: 0.8242 | Aux loss: 6.54 | PSNR: 33.257616 | MS-SSIM: 0.980777
+22-09-08 01:36:34.297 - INFO: best checkpoint saved.
+22-09-08 01:40:19.234 - INFO: Test epoch 235: Average losses: Loss: 1.7126 | MSE loss: 0.0005 | Bpp loss: 0.8337 | Aux loss: 8.00 | PSNR: 33.141428 | MS-SSIM: 0.980758
+22-09-08 01:43:54.551 - INFO: Test epoch 236: Average losses: Loss: 1.6908 | MSE loss: 0.0005 | Bpp loss: 0.8205 | Aux loss: 7.73 | PSNR: 32.860036 | MS-SSIM: 0.980373
+22-09-08 01:47:29.578 - INFO: Test epoch 237: Average losses: Loss: 1.6998 | MSE loss: 0.0005 | Bpp loss: 0.8361 | Aux loss: 6.62 | PSNR: 33.062000 | MS-SSIM: 0.980115
+22-09-08 01:51:04.812 - INFO: Test epoch 238: Average losses: Loss: 1.6635 | MSE loss: 0.0005 | Bpp loss: 0.8222 | Aux loss: 10.92 | PSNR: 33.153110 | MS-SSIM: 0.980365
+22-09-08 01:54:39.546 - INFO: Test epoch 239: Average losses: Loss: 1.6783 | MSE loss: 0.0005 | Bpp loss: 0.8144 | Aux loss: 5.97 | PSNR: 32.908380 | MS-SSIM: 0.980076
+22-09-08 01:58:14.819 - INFO: Test epoch 240: Average losses: Loss: 1.6533 | MSE loss: 0.0005 | Bpp loss: 0.8299 | Aux loss: 9.13 | PSNR: 33.261407 | MS-SSIM: 0.980828
+22-09-08 02:01:49.455 - INFO: Test epoch 241: Average losses: Loss: 1.6742 | MSE loss: 0.0005 | Bpp loss: 0.8209 | Aux loss: 6.24 | PSNR: 33.029435 | MS-SSIM: 0.980132
+22-09-08 02:05:22.911 - INFO: Test epoch 242: Average losses: Loss: 1.7124 | MSE loss: 0.0005 | Bpp loss: 0.8349 | Aux loss: 8.18 | PSNR: 33.105199 | MS-SSIM: 0.981079
+22-09-08 02:08:58.308 - INFO: Test epoch 243: Average losses: Loss: 1.6705 | MSE loss: 0.0005 | Bpp loss: 0.8289 | Aux loss: 6.53 | PSNR: 33.136062 | MS-SSIM: 0.979704
+22-09-08 02:12:34.611 - INFO: Test epoch 244: Average losses: Loss: 1.7575 | MSE loss: 0.0006 | Bpp loss: 0.8241 | Aux loss: 5.28 | PSNR: 32.922046 | MS-SSIM: 0.980470
+22-09-08 02:16:10.120 - INFO: Test epoch 245: Average losses: Loss: 1.6540 | MSE loss: 0.0005 | Bpp loss: 0.8268 | Aux loss: 9.64 | PSNR: 33.232403 | MS-SSIM: 0.980685
+22-09-08 02:19:57.009 - INFO: Test epoch 246: Average losses: Loss: 1.7561 | MSE loss: 0.0006 | Bpp loss: 0.8162 | Aux loss: 9.52 | PSNR: 32.650324 | MS-SSIM: 0.979789
+22-09-08 02:23:30.189 - INFO: Test epoch 247: Average losses: Loss: 1.7852 | MSE loss: 0.0006 | Bpp loss: 0.8116 | Aux loss: 9.66 | PSNR: 32.626001 | MS-SSIM: 0.978836
+22-09-08 02:27:02.648 - INFO: Test epoch 248: Average losses: Loss: 1.6547 | MSE loss: 0.0005 | Bpp loss: 0.8299 | Aux loss: 6.35 | PSNR: 33.290342 | MS-SSIM: 0.981100
+22-09-08 02:30:34.736 - INFO: Test epoch 249: Average losses: Loss: 1.6950 | MSE loss: 0.0005 | Bpp loss: 0.8189 | Aux loss: 6.09 | PSNR: 33.017339 | MS-SSIM: 0.980294
+22-09-08 02:34:05.893 - INFO: Test epoch 250: Average losses: Loss: 1.6598 | MSE loss: 0.0005 | Bpp loss: 0.8298 | Aux loss: 7.92 | PSNR: 33.192413 | MS-SSIM: 0.980744
+22-09-08 02:37:47.030 - INFO: Test epoch 251: Average losses: Loss: 1.6733 | MSE loss: 0.0005 | Bpp loss: 0.8305 | Aux loss: 11.01 | PSNR: 33.109433 | MS-SSIM: 0.980731
+22-09-08 02:41:20.900 - INFO: Test epoch 252: Average losses: Loss: 1.7024 | MSE loss: 0.0005 | Bpp loss: 0.8194 | Aux loss: 14.44 | PSNR: 32.920992 | MS-SSIM: 0.980409
+22-09-08 02:44:54.406 - INFO: Test epoch 253: Average losses: Loss: 1.6860 | MSE loss: 0.0005 | Bpp loss: 0.8337 | Aux loss: 6.46 | PSNR: 33.054791 | MS-SSIM: 0.980419
+22-09-08 02:48:27.498 - INFO: Test epoch 254: Average losses: Loss: 1.6772 | MSE loss: 0.0005 | Bpp loss: 0.8274 | Aux loss: 8.24 | PSNR: 33.022089 | MS-SSIM: 0.980312
+22-09-08 02:52:00.915 - INFO: Test epoch 255: Average losses: Loss: 1.6357 | MSE loss: 0.0005 | Bpp loss: 0.8299 | Aux loss: 6.87 | PSNR: 33.282404 | MS-SSIM: 0.981069
+22-09-08 02:52:01.584 - INFO: best checkpoint saved.
+22-09-08 02:55:35.178 - INFO: Test epoch 256: Average losses: Loss: 1.6834 | MSE loss: 0.0005 | Bpp loss: 0.8108 | Aux loss: 7.71 | PSNR: 33.051303 | MS-SSIM: 0.980180
+22-09-08 02:59:22.935 - INFO: Test epoch 257: Average losses: Loss: 1.6745 | MSE loss: 0.0005 | Bpp loss: 0.8140 | Aux loss: 6.33 | PSNR: 32.980612 | MS-SSIM: 0.980391
+22-09-08 03:03:03.633 - INFO: Test epoch 258: Average losses: Loss: 1.6391 | MSE loss: 0.0005 | Bpp loss: 0.8236 | Aux loss: 6.68 | PSNR: 33.344874 | MS-SSIM: 0.981065
+22-09-08 03:06:42.692 - INFO: Test epoch 259: Average losses: Loss: 1.6383 | MSE loss: 0.0005 | Bpp loss: 0.8208 | Aux loss: 8.40 | PSNR: 33.276504 | MS-SSIM: 0.981076
+22-09-08 03:10:21.785 - INFO: Test epoch 260: Average losses: Loss: 1.7065 | MSE loss: 0.0005 | Bpp loss: 0.8292 | Aux loss: 9.90 | PSNR: 32.883381 | MS-SSIM: 0.979791
+22-09-08 03:14:01.761 - INFO: Test epoch 261: Average losses: Loss: 1.6997 | MSE loss: 0.0005 | Bpp loss: 0.8224 | Aux loss: 8.16 | PSNR: 32.783421 | MS-SSIM: 0.980758
+22-09-08 03:17:52.057 - INFO: Test epoch 262: Average losses: Loss: 1.6268 | MSE loss: 0.0005 | Bpp loss: 0.8301 | Aux loss: 6.15 | PSNR: 33.409011 | MS-SSIM: 0.981367
+22-09-08 03:17:52.773 - INFO: best checkpoint saved.
+22-09-08 03:21:32.386 - INFO: Test epoch 263: Average losses: Loss: 1.7052 | MSE loss: 0.0006 | Bpp loss: 0.8097 | Aux loss: 4.67 | PSNR: 33.064402 | MS-SSIM: 0.980791
+22-09-08 03:25:07.943 - INFO: Test epoch 264: Average losses: Loss: 1.6283 | MSE loss: 0.0005 | Bpp loss: 0.8255 | Aux loss: 5.39 | PSNR: 33.395455 | MS-SSIM: 0.981309
+22-09-08 03:28:41.389 - INFO: Test epoch 265: Average losses: Loss: 1.6747 | MSE loss: 0.0005 | Bpp loss: 0.8294 | Aux loss: 7.72 | PSNR: 33.090521 | MS-SSIM: 0.980436
+22-09-08 03:32:16.160 - INFO: Test epoch 266: Average losses: Loss: 1.6963 | MSE loss: 0.0005 | Bpp loss: 0.8319 | Aux loss: 12.37 | PSNR: 32.985489 | MS-SSIM: 0.980424
+22-09-08 03:35:52.358 - INFO: Test epoch 267: Average losses: Loss: 1.7011 | MSE loss: 0.0005 | Bpp loss: 0.8117 | Aux loss: 7.92 | PSNR: 32.846420 | MS-SSIM: 0.979857
+22-09-08 03:39:26.963 - INFO: Test epoch 268: Average losses: Loss: 1.6520 | MSE loss: 0.0005 | Bpp loss: 0.8293 | Aux loss: 7.90 | PSNR: 33.167270 | MS-SSIM: 0.981037
+22-09-08 03:43:00.880 - INFO: Test epoch 269: Average losses: Loss: 1.6344 | MSE loss: 0.0005 | Bpp loss: 0.8235 | Aux loss: 6.87 | PSNR: 33.298505 | MS-SSIM: 0.981284
+22-09-08 03:46:35.012 - INFO: Test epoch 270: Average losses: Loss: 1.6969 | MSE loss: 0.0005 | Bpp loss: 0.8238 | Aux loss: 8.23 | PSNR: 32.879016 | MS-SSIM: 0.979960
+22-09-08 03:50:08.118 - INFO: Test epoch 271: Average losses: Loss: 1.6308 | MSE loss: 0.0005 | Bpp loss: 0.8333 | Aux loss: 4.74 | PSNR: 33.304085 | MS-SSIM: 0.981415
+22-09-08 03:53:42.003 - INFO: Test epoch 272: Average losses: Loss: 1.6567 | MSE loss: 0.0005 | Bpp loss: 0.8296 | Aux loss: 10.80 | PSNR: 33.166071 | MS-SSIM: 0.980729
+22-09-08 03:57:22.165 - INFO: Test epoch 273: Average losses: Loss: 1.6380 | MSE loss: 0.0005 | Bpp loss: 0.8171 | Aux loss: 6.23 | PSNR: 33.219815 | MS-SSIM: 0.980885
+22-09-08 04:00:53.478 - INFO: Test epoch 274: Average losses: Loss: 1.6373 | MSE loss: 0.0005 | Bpp loss: 0.8239 | Aux loss: 4.93 | PSNR: 33.183707 | MS-SSIM: 0.981259
+22-09-08 04:04:26.141 - INFO: Test epoch 275: Average losses: Loss: 1.6253 | MSE loss: 0.0005 | Bpp loss: 0.8259 | Aux loss: 6.73 | PSNR: 33.380174 | MS-SSIM: 0.981518
+22-09-08 04:04:26.779 - INFO: best checkpoint saved.
+22-09-08 04:08:00.881 - INFO: Test epoch 276: Average losses: Loss: 1.6415 | MSE loss: 0.0005 | Bpp loss: 0.8234 | Aux loss: 9.42 | PSNR: 33.278469 | MS-SSIM: 0.980805
+22-09-08 04:11:34.525 - INFO: Test epoch 277: Average losses: Loss: 1.6209 | MSE loss: 0.0005 | Bpp loss: 0.8303 | Aux loss: 8.82 | PSNR: 33.352809 | MS-SSIM: 0.981576
+22-09-08 04:11:35.201 - INFO: best checkpoint saved.
+22-09-08 04:15:14.252 - INFO: Test epoch 278: Average losses: Loss: 1.6466 | MSE loss: 0.0005 | Bpp loss: 0.8216 | Aux loss: 6.76 | PSNR: 33.227404 | MS-SSIM: 0.981005
+22-09-08 04:18:49.070 - INFO: Test epoch 279: Average losses: Loss: 1.7400 | MSE loss: 0.0006 | Bpp loss: 0.8154 | Aux loss: 7.20 | PSNR: 32.666038 | MS-SSIM: 0.980033
+22-09-08 04:22:24.589 - INFO: Test epoch 280: Average losses: Loss: 1.6292 | MSE loss: 0.0005 | Bpp loss: 0.8357 | Aux loss: 6.40 | PSNR: 33.401411 | MS-SSIM: 0.981373
+22-09-08 04:25:58.864 - INFO: Test epoch 281: Average losses: Loss: 1.6775 | MSE loss: 0.0005 | Bpp loss: 0.8175 | Aux loss: 6.60 | PSNR: 33.166664 | MS-SSIM: 0.980353
+22-09-08 04:29:32.003 - INFO: Test epoch 282: Average losses: Loss: 1.7077 | MSE loss: 0.0006 | Bpp loss: 0.8037 | Aux loss: 5.13 | PSNR: 32.893069 | MS-SSIM: 0.979811
+22-09-08 04:33:07.121 - INFO: Test epoch 283: Average losses: Loss: 1.6279 | MSE loss: 0.0005 | Bpp loss: 0.8220 | Aux loss: 5.89 | PSNR: 33.366528 | MS-SSIM: 0.981500
+22-09-08 04:36:40.955 - INFO: Test epoch 284: Average losses: Loss: 1.6503 | MSE loss: 0.0005 | Bpp loss: 0.8217 | Aux loss: 8.25 | PSNR: 33.045359 | MS-SSIM: 0.980666
+22-09-08 04:40:15.641 - INFO: Test epoch 285: Average losses: Loss: 1.7253 | MSE loss: 0.0006 | Bpp loss: 0.8100 | Aux loss: 8.95 | PSNR: 32.664554 | MS-SSIM: 0.979467
+22-09-08 04:43:49.049 - INFO: Test epoch 286: Average losses: Loss: 1.6566 | MSE loss: 0.0005 | Bpp loss: 0.8214 | Aux loss: 7.21 | PSNR: 33.283466 | MS-SSIM: 0.981100
+22-09-08 04:47:20.802 - INFO: Test epoch 287: Average losses: Loss: 1.6593 | MSE loss: 0.0005 | Bpp loss: 0.8288 | Aux loss: 9.14 | PSNR: 33.242122 | MS-SSIM: 0.980958
+22-09-08 04:50:54.029 - INFO: Test epoch 288: Average losses: Loss: 1.6359 | MSE loss: 0.0005 | Bpp loss: 0.8267 | Aux loss: 8.13 | PSNR: 33.240538 | MS-SSIM: 0.981215
+22-09-08 04:54:48.410 - INFO: Test epoch 289: Average losses: Loss: 1.6588 | MSE loss: 0.0005 | Bpp loss: 0.8206 | Aux loss: 10.12 | PSNR: 32.950443 | MS-SSIM: 0.980849
+22-09-08 04:58:34.368 - INFO: Test epoch 290: Average losses: Loss: 1.6439 | MSE loss: 0.0005 | Bpp loss: 0.8211 | Aux loss: 10.27 | PSNR: 33.133472 | MS-SSIM: 0.980616
+22-09-08 05:02:14.862 - INFO: Test epoch 291: Average losses: Loss: 1.6503 | MSE loss: 0.0005 | Bpp loss: 0.8253 | Aux loss: 7.36 | PSNR: 33.207646 | MS-SSIM: 0.981101
+22-09-08 05:05:53.309 - INFO: Test epoch 292: Average losses: Loss: 1.6573 | MSE loss: 0.0005 | Bpp loss: 0.8328 | Aux loss: 6.31 | PSNR: 33.159558 | MS-SSIM: 0.981156
+22-09-08 05:09:31.412 - INFO: Test epoch 293: Average losses: Loss: 1.6534 | MSE loss: 0.0005 | Bpp loss: 0.8162 | Aux loss: 6.03 | PSNR: 32.973477 | MS-SSIM: 0.981085
+22-09-08 05:13:11.406 - INFO: Test epoch 294: Average losses: Loss: 1.6453 | MSE loss: 0.0005 | Bpp loss: 0.8202 | Aux loss: 7.74 | PSNR: 33.138028 | MS-SSIM: 0.981186
+22-09-08 05:16:52.352 - INFO: Test epoch 295: Average losses: Loss: 1.6404 | MSE loss: 0.0005 | Bpp loss: 0.8297 | Aux loss: 5.87 | PSNR: 33.200653 | MS-SSIM: 0.980940
+22-09-08 05:20:31.931 - INFO: Test epoch 296: Average losses: Loss: 1.6292 | MSE loss: 0.0005 | Bpp loss: 0.8185 | Aux loss: 8.90 | PSNR: 33.266263 | MS-SSIM: 0.980942
+22-09-08 05:24:06.354 - INFO: Test epoch 297: Average losses: Loss: 1.6460 | MSE loss: 0.0005 | Bpp loss: 0.8325 | Aux loss: 5.38 | PSNR: 33.097608 | MS-SSIM: 0.981284
+22-09-08 05:27:40.791 - INFO: Test epoch 298: Average losses: Loss: 1.6236 | MSE loss: 0.0005 | Bpp loss: 0.8239 | Aux loss: 9.37 | PSNR: 33.382771 | MS-SSIM: 0.981435
+22-09-08 05:31:14.051 - INFO: Test epoch 299: Average losses: Loss: 1.6474 | MSE loss: 0.0005 | Bpp loss: 0.8192 | Aux loss: 6.80 | PSNR: 33.053571 | MS-SSIM: 0.981260
+22-09-08 05:34:58.979 - INFO: Test epoch 300: Average losses: Loss: 1.6310 | MSE loss: 0.0005 | Bpp loss: 0.8183 | Aux loss: 7.00 | PSNR: 33.230055 | MS-SSIM: 0.980816
+22-09-08 05:38:33.871 - INFO: Test epoch 301: Average losses: Loss: 1.6698 | MSE loss: 0.0005 | Bpp loss: 0.8241 | Aux loss: 7.09 | PSNR: 33.032191 | MS-SSIM: 0.980885
+22-09-08 05:42:07.785 - INFO: Test epoch 302: Average losses: Loss: 1.6302 | MSE loss: 0.0005 | Bpp loss: 0.8235 | Aux loss: 12.58 | PSNR: 33.253637 | MS-SSIM: 0.981148
+22-09-08 05:45:41.708 - INFO: Test epoch 303: Average losses: Loss: 1.6855 | MSE loss: 0.0005 | Bpp loss: 0.8184 | Aux loss: 5.23 | PSNR: 32.911502 | MS-SSIM: 0.980504
+22-09-08 05:49:16.635 - INFO: Test epoch 304: Average losses: Loss: 1.6601 | MSE loss: 0.0005 | Bpp loss: 0.8144 | Aux loss: 8.01 | PSNR: 32.931384 | MS-SSIM: 0.980606
+22-09-08 05:52:51.311 - INFO: Test epoch 305: Average losses: Loss: 1.6566 | MSE loss: 0.0005 | Bpp loss: 0.8177 | Aux loss: 6.53 | PSNR: 32.957535 | MS-SSIM: 0.980903
+22-09-08 05:56:22.751 - INFO: Test epoch 306: Average losses: Loss: 1.6207 | MSE loss: 0.0005 | Bpp loss: 0.8135 | Aux loss: 5.88 | PSNR: 33.238260 | MS-SSIM: 0.981180
+22-09-08 05:56:23.480 - INFO: best checkpoint saved.
+22-09-08 06:00:05.370 - INFO: Test epoch 307: Average losses: Loss: 1.6215 | MSE loss: 0.0005 | Bpp loss: 0.8247 | Aux loss: 8.05 | PSNR: 33.398489 | MS-SSIM: 0.981188
+22-09-08 06:03:47.242 - INFO: Test epoch 308: Average losses: Loss: 1.6201 | MSE loss: 0.0005 | Bpp loss: 0.8170 | Aux loss: 5.33 | PSNR: 33.251383 | MS-SSIM: 0.981245
+22-09-08 06:03:47.909 - INFO: best checkpoint saved.
+22-09-08 06:07:29.548 - INFO: Test epoch 309: Average losses: Loss: 1.6160 | MSE loss: 0.0005 | Bpp loss: 0.8249 | Aux loss: 7.02 | PSNR: 33.413582 | MS-SSIM: 0.981644
+22-09-08 06:07:30.326 - INFO: best checkpoint saved.
+22-09-08 06:11:11.642 - INFO: Test epoch 310: Average losses: Loss: 1.7111 | MSE loss: 0.0005 | Bpp loss: 0.8209 | Aux loss: 7.76 | PSNR: 32.658724 | MS-SSIM: 0.980527
+22-09-08 06:14:53.897 - INFO: Test epoch 311: Average losses: Loss: 1.6056 | MSE loss: 0.0005 | Bpp loss: 0.8209 | Aux loss: 5.19 | PSNR: 33.465898 | MS-SSIM: 0.981505
+22-09-08 06:14:54.609 - INFO: best checkpoint saved.
+22-09-08 06:18:40.732 - INFO: Test epoch 312: Average losses: Loss: 1.6366 | MSE loss: 0.0005 | Bpp loss: 0.8278 | Aux loss: 7.63 | PSNR: 33.128855 | MS-SSIM: 0.981605
+22-09-08 06:22:31.451 - INFO: Test epoch 313: Average losses: Loss: 1.6316 | MSE loss: 0.0005 | Bpp loss: 0.8227 | Aux loss: 8.70 | PSNR: 33.276875 | MS-SSIM: 0.981447
+22-09-08 06:26:18.811 - INFO: Test epoch 314: Average losses: Loss: 1.6391 | MSE loss: 0.0005 | Bpp loss: 0.8272 | Aux loss: 8.55 | PSNR: 33.247259 | MS-SSIM: 0.980967
+22-09-08 06:30:04.146 - INFO: Test epoch 315: Average losses: Loss: 1.6012 | MSE loss: 0.0005 | Bpp loss: 0.8231 | Aux loss: 6.07 | PSNR: 33.505001 | MS-SSIM: 0.981547
+22-09-08 06:30:04.812 - INFO: best checkpoint saved.
+22-09-08 06:33:55.683 - INFO: Test epoch 316: Average losses: Loss: 1.6125 | MSE loss: 0.0005 | Bpp loss: 0.8295 | Aux loss: 8.93 | PSNR: 33.385885 | MS-SSIM: 0.981427
+22-09-08 06:37:45.112 - INFO: Test epoch 317: Average losses: Loss: 1.6841 | MSE loss: 0.0005 | Bpp loss: 0.8285 | Aux loss: 5.43 | PSNR: 33.034724 | MS-SSIM: 0.980665
+22-09-08 06:41:32.076 - INFO: Test epoch 318: Average losses: Loss: 1.6201 | MSE loss: 0.0005 | Bpp loss: 0.8296 | Aux loss: 7.94 | PSNR: 33.427783 | MS-SSIM: 0.981542
+22-09-08 06:45:23.932 - INFO: Test epoch 319: Average losses: Loss: 1.6475 | MSE loss: 0.0005 | Bpp loss: 0.8328 | Aux loss: 8.89 | PSNR: 33.293433 | MS-SSIM: 0.981184
+22-09-08 06:49:14.145 - INFO: Test epoch 320: Average losses: Loss: 1.6500 | MSE loss: 0.0005 | Bpp loss: 0.8161 | Aux loss: 7.54 | PSNR: 33.116684 | MS-SSIM: 0.981168
+22-09-08 06:53:10.176 - INFO: Test epoch 321: Average losses: Loss: 1.6280 | MSE loss: 0.0005 | Bpp loss: 0.8160 | Aux loss: 5.47 | PSNR: 33.320888 | MS-SSIM: 0.980983
+22-09-08 06:57:12.418 - INFO: Test epoch 322: Average losses: Loss: 1.6597 | MSE loss: 0.0005 | Bpp loss: 0.8146 | Aux loss: 9.05 | PSNR: 33.062622 | MS-SSIM: 0.981115
+22-09-08 07:01:04.058 - INFO: Test epoch 323: Average losses: Loss: 1.6257 | MSE loss: 0.0005 | Bpp loss: 0.8315 | Aux loss: 7.63 | PSNR: 33.416223 | MS-SSIM: 0.981739
+22-09-08 07:04:57.897 - INFO: Test epoch 324: Average losses: Loss: 1.6249 | MSE loss: 0.0005 | Bpp loss: 0.8245 | Aux loss: 7.59 | PSNR: 33.380423 | MS-SSIM: 0.981222
+22-09-08 07:08:52.578 - INFO: Test epoch 325: Average losses: Loss: 1.6438 | MSE loss: 0.0005 | Bpp loss: 0.8109 | Aux loss: 11.86 | PSNR: 33.117552 | MS-SSIM: 0.980483
+22-09-08 07:12:51.826 - INFO: Test epoch 326: Average losses: Loss: 1.6189 | MSE loss: 0.0005 | Bpp loss: 0.8300 | Aux loss: 9.86 | PSNR: 33.450526 | MS-SSIM: 0.981598
+22-09-08 07:16:46.408 - INFO: Test epoch 327: Average losses: Loss: 1.6494 | MSE loss: 0.0005 | Bpp loss: 0.8218 | Aux loss: 6.49 | PSNR: 33.321299 | MS-SSIM: 0.980659
+22-09-08 07:20:43.599 - INFO: Test epoch 328: Average losses: Loss: 1.6035 | MSE loss: 0.0005 | Bpp loss: 0.8142 | Aux loss: 6.39 | PSNR: 33.415442 | MS-SSIM: 0.981368
+22-09-08 07:24:32.064 - INFO: Test epoch 329: Average losses: Loss: 1.6280 | MSE loss: 0.0005 | Bpp loss: 0.8327 | Aux loss: 7.82 | PSNR: 33.434260 | MS-SSIM: 0.981595
+22-09-08 07:28:24.109 - INFO: Test epoch 330: Average losses: Loss: 1.6378 | MSE loss: 0.0005 | Bpp loss: 0.8165 | Aux loss: 8.71 | PSNR: 33.149267 | MS-SSIM: 0.981025
+22-09-08 07:32:24.488 - INFO: Test epoch 331: Average losses: Loss: 1.6262 | MSE loss: 0.0005 | Bpp loss: 0.8233 | Aux loss: 9.41 | PSNR: 33.364436 | MS-SSIM: 0.980956
+22-09-08 07:36:15.502 - INFO: Test epoch 332: Average losses: Loss: 1.6226 | MSE loss: 0.0005 | Bpp loss: 0.8216 | Aux loss: 10.91 | PSNR: 33.359592 | MS-SSIM: 0.981492
+22-09-08 07:40:02.293 - INFO: Test epoch 333: Average losses: Loss: 1.6167 | MSE loss: 0.0005 | Bpp loss: 0.8283 | Aux loss: 7.66 | PSNR: 33.406605 | MS-SSIM: 0.981628
+22-09-08 07:43:53.326 - INFO: Test epoch 334: Average losses: Loss: 1.6229 | MSE loss: 0.0005 | Bpp loss: 0.8182 | Aux loss: 6.61 | PSNR: 33.277358 | MS-SSIM: 0.981333
+22-09-08 07:47:46.986 - INFO: Test epoch 335: Average losses: Loss: 1.6340 | MSE loss: 0.0005 | Bpp loss: 0.8205 | Aux loss: 8.79 | PSNR: 33.226976 | MS-SSIM: 0.980811
+22-09-08 07:51:42.923 - INFO: Test epoch 336: Average losses: Loss: 1.6562 | MSE loss: 0.0005 | Bpp loss: 0.8182 | Aux loss: 11.36 | PSNR: 33.198373 | MS-SSIM: 0.980612
+22-09-08 07:55:34.529 - INFO: Test epoch 337: Average losses: Loss: 1.6157 | MSE loss: 0.0005 | Bpp loss: 0.8292 | Aux loss: 6.17 | PSNR: 33.360939 | MS-SSIM: 0.981840
+22-09-08 07:59:18.402 - INFO: Test epoch 338: Average losses: Loss: 1.6443 | MSE loss: 0.0005 | Bpp loss: 0.8123 | Aux loss: 6.34 | PSNR: 33.131357 | MS-SSIM: 0.981128
+22-09-08 08:02:55.858 - INFO: Test epoch 339: Average losses: Loss: 1.6413 | MSE loss: 0.0005 | Bpp loss: 0.8104 | Aux loss: 7.17 | PSNR: 33.078491 | MS-SSIM: 0.981020
+22-09-08 08:06:29.636 - INFO: Test epoch 340: Average losses: Loss: 1.6300 | MSE loss: 0.0005 | Bpp loss: 0.8216 | Aux loss: 7.14 | PSNR: 33.178140 | MS-SSIM: 0.981501
+22-09-08 08:10:16.715 - INFO: Test epoch 341: Average losses: Loss: 1.6325 | MSE loss: 0.0005 | Bpp loss: 0.8101 | Aux loss: 9.98 | PSNR: 33.113732 | MS-SSIM: 0.981192
+22-09-08 08:14:07.825 - INFO: Test epoch 342: Average losses: Loss: 1.6481 | MSE loss: 0.0005 | Bpp loss: 0.8275 | Aux loss: 7.57 | PSNR: 33.221759 | MS-SSIM: 0.981133
+22-09-08 08:17:57.171 - INFO: Test epoch 343: Average losses: Loss: 1.6160 | MSE loss: 0.0005 | Bpp loss: 0.8279 | Aux loss: 9.12 | PSNR: 33.345538 | MS-SSIM: 0.981472
+22-09-08 08:21:47.830 - INFO: Test epoch 344: Average losses: Loss: 1.6310 | MSE loss: 0.0005 | Bpp loss: 0.8287 | Aux loss: 12.01 | PSNR: 33.307353 | MS-SSIM: 0.981348
+22-09-08 08:25:36.417 - INFO: Test epoch 345: Average losses: Loss: 1.6255 | MSE loss: 0.0005 | Bpp loss: 0.8193 | Aux loss: 8.38 | PSNR: 33.392313 | MS-SSIM: 0.981293
+22-09-08 08:29:24.631 - INFO: Test epoch 346: Average losses: Loss: 1.6301 | MSE loss: 0.0005 | Bpp loss: 0.8267 | Aux loss: 10.11 | PSNR: 33.244073 | MS-SSIM: 0.981015
+22-09-08 08:33:08.711 - INFO: Test epoch 347: Average losses: Loss: 1.6165 | MSE loss: 0.0005 | Bpp loss: 0.8142 | Aux loss: 9.45 | PSNR: 33.301979 | MS-SSIM: 0.981116
+22-09-08 08:36:53.066 - INFO: Test epoch 348: Average losses: Loss: 1.6357 | MSE loss: 0.0005 | Bpp loss: 0.8137 | Aux loss: 8.26 | PSNR: 33.117445 | MS-SSIM: 0.981293
+22-09-08 08:40:36.552 - INFO: Test epoch 349: Average losses: Loss: 1.6107 | MSE loss: 0.0005 | Bpp loss: 0.8163 | Aux loss: 6.50 | PSNR: 33.313626 | MS-SSIM: 0.981212
+22-09-08 08:44:21.862 - INFO: Test epoch 350: Average losses: Loss: 1.6551 | MSE loss: 0.0005 | Bpp loss: 0.8234 | Aux loss: 6.40 | PSNR: 33.051633 | MS-SSIM: 0.981283
+22-09-08 08:48:03.850 - INFO: Test epoch 351: Average losses: Loss: 1.6056 | MSE loss: 0.0005 | Bpp loss: 0.8161 | Aux loss: 10.54 | PSNR: 33.331996 | MS-SSIM: 0.981313
+22-09-08 08:51:42.430 - INFO: Test epoch 352: Average losses: Loss: 1.6092 | MSE loss: 0.0005 | Bpp loss: 0.8234 | Aux loss: 6.21 | PSNR: 33.396235 | MS-SSIM: 0.981448
+22-09-08 08:55:26.799 - INFO: Test epoch 353: Average losses: Loss: 1.6134 | MSE loss: 0.0005 | Bpp loss: 0.8242 | Aux loss: 6.91 | PSNR: 33.299524 | MS-SSIM: 0.981223
+22-09-08 08:59:18.280 - INFO: Test epoch 354: Average losses: Loss: 1.6188 | MSE loss: 0.0005 | Bpp loss: 0.8159 | Aux loss: 7.76 | PSNR: 33.207199 | MS-SSIM: 0.981237
+22-09-08 09:03:04.555 - INFO: Test epoch 355: Average losses: Loss: 1.6219 | MSE loss: 0.0005 | Bpp loss: 0.8320 | Aux loss: 8.11 | PSNR: 33.410099 | MS-SSIM: 0.981353
+22-09-08 09:06:49.747 - INFO: Test epoch 356: Average losses: Loss: 1.6142 | MSE loss: 0.0005 | Bpp loss: 0.8247 | Aux loss: 9.33 | PSNR: 33.378741 | MS-SSIM: 0.981538
+22-09-08 09:10:26.194 - INFO: Test epoch 357: Average losses: Loss: 1.6011 | MSE loss: 0.0005 | Bpp loss: 0.8197 | Aux loss: 9.02 | PSNR: 33.426066 | MS-SSIM: 0.981636
+22-09-08 09:10:26.936 - INFO: best checkpoint saved.
+22-09-08 09:13:57.046 - INFO: Test epoch 358: Average losses: Loss: 1.6210 | MSE loss: 0.0005 | Bpp loss: 0.8290 | Aux loss: 6.87 | PSNR: 33.355386 | MS-SSIM: 0.981313
+22-09-08 09:17:27.193 - INFO: Test epoch 359: Average losses: Loss: 1.6519 | MSE loss: 0.0005 | Bpp loss: 0.8203 | Aux loss: 6.04 | PSNR: 32.963367 | MS-SSIM: 0.981430
+22-09-08 09:20:51.563 - INFO: Test epoch 360: Average losses: Loss: 1.6183 | MSE loss: 0.0005 | Bpp loss: 0.8122 | Aux loss: 7.53 | PSNR: 33.310992 | MS-SSIM: 0.981379
+22-09-08 09:23:53.139 - INFO: Test epoch 361: Average losses: Loss: 1.6030 | MSE loss: 0.0005 | Bpp loss: 0.8083 | Aux loss: 9.12 | PSNR: 33.323845 | MS-SSIM: 0.981086
+22-09-08 09:26:56.756 - INFO: Test epoch 362: Average losses: Loss: 1.6483 | MSE loss: 0.0005 | Bpp loss: 0.8080 | Aux loss: 7.38 | PSNR: 33.034285 | MS-SSIM: 0.980263
+22-09-08 09:29:58.041 - INFO: Test epoch 363: Average losses: Loss: 1.5988 | MSE loss: 0.0005 | Bpp loss: 0.8191 | Aux loss: 8.29 | PSNR: 33.474176 | MS-SSIM: 0.981999
+22-09-08 09:29:58.713 - INFO: best checkpoint saved.
+22-09-08 09:32:59.540 - INFO: Test epoch 364: Average losses: Loss: 1.6335 | MSE loss: 0.0005 | Bpp loss: 0.8186 | Aux loss: 7.68 | PSNR: 33.233773 | MS-SSIM: 0.981178
+22-09-08 09:36:03.067 - INFO: Test epoch 365: Average losses: Loss: 1.5952 | MSE loss: 0.0005 | Bpp loss: 0.8253 | Aux loss: 6.71 | PSNR: 33.564831 | MS-SSIM: 0.981894
+22-09-08 09:36:03.802 - INFO: best checkpoint saved.
+22-09-08 09:39:07.531 - INFO: Test epoch 366: Average losses: Loss: 1.5937 | MSE loss: 0.0005 | Bpp loss: 0.8283 | Aux loss: 8.35 | PSNR: 33.532060 | MS-SSIM: 0.982090
+22-09-08 09:39:08.338 - INFO: best checkpoint saved.
+22-09-08 09:42:09.962 - INFO: Test epoch 367: Average losses: Loss: 1.6357 | MSE loss: 0.0005 | Bpp loss: 0.8159 | Aux loss: 5.58 | PSNR: 33.010108 | MS-SSIM: 0.981585
+22-09-08 09:45:09.047 - INFO: Test epoch 368: Average losses: Loss: 1.6341 | MSE loss: 0.0005 | Bpp loss: 0.8155 | Aux loss: 10.61 | PSNR: 33.324597 | MS-SSIM: 0.981004
+22-09-08 09:48:18.986 - INFO: Test epoch 369: Average losses: Loss: 1.6153 | MSE loss: 0.0005 | Bpp loss: 0.8238 | Aux loss: 8.38 | PSNR: 33.332069 | MS-SSIM: 0.981312
+22-09-08 09:51:18.851 - INFO: Test epoch 370: Average losses: Loss: 1.6133 | MSE loss: 0.0005 | Bpp loss: 0.8154 | Aux loss: 12.53 | PSNR: 33.236123 | MS-SSIM: 0.981336
+22-09-08 09:54:19.538 - INFO: Test epoch 371: Average losses: Loss: 1.6266 | MSE loss: 0.0005 | Bpp loss: 0.8155 | Aux loss: 8.50 | PSNR: 33.352176 | MS-SSIM: 0.980998
+22-09-08 09:57:20.116 - INFO: Test epoch 372: Average losses: Loss: 1.5971 | MSE loss: 0.0005 | Bpp loss: 0.8143 | Aux loss: 6.89 | PSNR: 33.370331 | MS-SSIM: 0.981326
+22-09-08 10:00:20.745 - INFO: Test epoch 373: Average losses: Loss: 1.5928 | MSE loss: 0.0005 | Bpp loss: 0.8239 | Aux loss: 10.82 | PSNR: 33.485570 | MS-SSIM: 0.981792
+22-09-08 10:00:21.453 - INFO: best checkpoint saved.
+22-09-08 10:03:22.639 - INFO: Test epoch 374: Average losses: Loss: 1.6041 | MSE loss: 0.0005 | Bpp loss: 0.8203 | Aux loss: 5.45 | PSNR: 33.382892 | MS-SSIM: 0.981478
+22-09-08 10:06:25.619 - INFO: Test epoch 375: Average losses: Loss: 1.6263 | MSE loss: 0.0005 | Bpp loss: 0.8150 | Aux loss: 9.72 | PSNR: 33.150126 | MS-SSIM: 0.981223
+22-09-08 10:09:26.477 - INFO: Test epoch 376: Average losses: Loss: 1.5975 | MSE loss: 0.0005 | Bpp loss: 0.8236 | Aux loss: 5.89 | PSNR: 33.544906 | MS-SSIM: 0.981878
+22-09-08 10:12:27.277 - INFO: Test epoch 377: Average losses: Loss: 1.6460 | MSE loss: 0.0005 | Bpp loss: 0.8229 | Aux loss: 5.66 | PSNR: 33.113791 | MS-SSIM: 0.981272
+22-09-08 10:15:22.385 - INFO: Test epoch 378: Average losses: Loss: 1.6163 | MSE loss: 0.0005 | Bpp loss: 0.8135 | Aux loss: 6.49 | PSNR: 33.348001 | MS-SSIM: 0.981477
+22-09-08 10:18:21.663 - INFO: Test epoch 379: Average losses: Loss: 1.6042 | MSE loss: 0.0005 | Bpp loss: 0.8239 | Aux loss: 8.16 | PSNR: 33.483786 | MS-SSIM: 0.981816
+22-09-08 10:21:22.404 - INFO: Test epoch 380: Average losses: Loss: 1.5870 | MSE loss: 0.0005 | Bpp loss: 0.8162 | Aux loss: 6.74 | PSNR: 33.566960 | MS-SSIM: 0.981924
+22-09-08 10:21:23.138 - INFO: best checkpoint saved.
+22-09-08 10:24:22.299 - INFO: Test epoch 381: Average losses: Loss: 1.6161 | MSE loss: 0.0005 | Bpp loss: 0.8284 | Aux loss: 8.39 | PSNR: 33.363721 | MS-SSIM: 0.981168
+22-09-08 10:27:29.681 - INFO: Test epoch 382: Average losses: Loss: 1.6228 | MSE loss: 0.0005 | Bpp loss: 0.8104 | Aux loss: 7.80 | PSNR: 33.300791 | MS-SSIM: 0.981149
+22-09-08 10:30:29.896 - INFO: Test epoch 383: Average losses: Loss: 1.5897 | MSE loss: 0.0005 | Bpp loss: 0.8303 | Aux loss: 9.55 | PSNR: 33.599264 | MS-SSIM: 0.982014
+22-09-08 10:33:29.461 - INFO: Test epoch 384: Average losses: Loss: 1.5857 | MSE loss: 0.0005 | Bpp loss: 0.8260 | Aux loss: 7.77 | PSNR: 33.599536 | MS-SSIM: 0.982166
+22-09-08 10:33:30.219 - INFO: best checkpoint saved.
+22-09-08 10:36:20.875 - INFO: Test epoch 385: Average losses: Loss: 1.6288 | MSE loss: 0.0005 | Bpp loss: 0.8085 | Aux loss: 7.01 | PSNR: 33.327716 | MS-SSIM: 0.981272
+22-09-08 10:39:16.029 - INFO: Test epoch 386: Average losses: Loss: 1.6413 | MSE loss: 0.0005 | Bpp loss: 0.8187 | Aux loss: 8.62 | PSNR: 33.206826 | MS-SSIM: 0.980923
+22-09-08 10:42:13.458 - INFO: Test epoch 387: Average losses: Loss: 1.6124 | MSE loss: 0.0005 | Bpp loss: 0.8181 | Aux loss: 9.23 | PSNR: 33.460887 | MS-SSIM: 0.981534
+22-09-08 10:45:15.028 - INFO: Test epoch 388: Average losses: Loss: 1.5914 | MSE loss: 0.0005 | Bpp loss: 0.8286 | Aux loss: 8.29 | PSNR: 33.616503 | MS-SSIM: 0.981997
+22-09-08 10:48:13.850 - INFO: Test epoch 389: Average losses: Loss: 1.5834 | MSE loss: 0.0005 | Bpp loss: 0.8174 | Aux loss: 7.89 | PSNR: 33.415858 | MS-SSIM: 0.981859
+22-09-08 10:48:14.550 - INFO: best checkpoint saved.
+22-09-08 10:51:11.744 - INFO: Test epoch 390: Average losses: Loss: 1.5989 | MSE loss: 0.0005 | Bpp loss: 0.8248 | Aux loss: 10.86 | PSNR: 33.360287 | MS-SSIM: 0.981633
+22-09-08 10:54:10.047 - INFO: Test epoch 391: Average losses: Loss: 1.5796 | MSE loss: 0.0005 | Bpp loss: 0.8239 | Aux loss: 9.37 | PSNR: 33.482117 | MS-SSIM: 0.982127
+22-09-08 10:54:10.788 - INFO: best checkpoint saved.
+22-09-08 10:57:05.433 - INFO: Test epoch 392: Average losses: Loss: 1.6233 | MSE loss: 0.0005 | Bpp loss: 0.8073 | Aux loss: 9.15 | PSNR: 33.155827 | MS-SSIM: 0.980706
+22-09-08 11:00:04.224 - INFO: Test epoch 393: Average losses: Loss: 1.6043 | MSE loss: 0.0005 | Bpp loss: 0.8118 | Aux loss: 7.49 | PSNR: 33.360097 | MS-SSIM: 0.981136
+22-09-08 11:03:04.114 - INFO: Test epoch 394: Average losses: Loss: 1.6332 | MSE loss: 0.0005 | Bpp loss: 0.8267 | Aux loss: 8.07 | PSNR: 33.305319 | MS-SSIM: 0.981276
+22-09-08 11:06:11.463 - INFO: Test epoch 395: Average losses: Loss: 1.6034 | MSE loss: 0.0005 | Bpp loss: 0.8233 | Aux loss: 6.39 | PSNR: 33.483219 | MS-SSIM: 0.982005
+22-09-08 11:09:11.231 - INFO: Test epoch 396: Average losses: Loss: 1.6184 | MSE loss: 0.0005 | Bpp loss: 0.8174 | Aux loss: 7.92 | PSNR: 33.411561 | MS-SSIM: 0.981900
+22-09-08 11:12:11.411 - INFO: Test epoch 397: Average losses: Loss: 1.6120 | MSE loss: 0.0005 | Bpp loss: 0.8202 | Aux loss: 5.23 | PSNR: 33.239305 | MS-SSIM: 0.981416
+22-09-08 11:15:11.758 - INFO: Test epoch 398: Average losses: Loss: 1.5788 | MSE loss: 0.0005 | Bpp loss: 0.8222 | Aux loss: 7.07 | PSNR: 33.576134 | MS-SSIM: 0.982037
+22-09-08 11:15:12.440 - INFO: best checkpoint saved.
+22-09-08 11:18:11.468 - INFO: Test epoch 399: Average losses: Loss: 1.6089 | MSE loss: 0.0005 | Bpp loss: 0.8169 | Aux loss: 8.14 | PSNR: 33.382793 | MS-SSIM: 0.981571
+22-09-08 11:21:12.227 - INFO: Test epoch 400: Average losses: Loss: 1.5833 | MSE loss: 0.0005 | Bpp loss: 0.8166 | Aux loss: 8.85 | PSNR: 33.476043 | MS-SSIM: 0.981824
+22-09-08 11:24:20.586 - INFO: Test epoch 401: Average losses: Loss: 1.6140 | MSE loss: 0.0005 | Bpp loss: 0.8245 | Aux loss: 10.42 | PSNR: 33.419088 | MS-SSIM: 0.981675
+22-09-08 11:27:22.324 - INFO: Test epoch 402: Average losses: Loss: 1.5900 | MSE loss: 0.0005 | Bpp loss: 0.8181 | Aux loss: 7.63 | PSNR: 33.491800 | MS-SSIM: 0.981705
+22-09-08 11:30:23.256 - INFO: Test epoch 403: Average losses: Loss: 1.5912 | MSE loss: 0.0005 | Bpp loss: 0.8223 | Aux loss: 6.60 | PSNR: 33.500268 | MS-SSIM: 0.981900
+22-09-08 11:33:22.881 - INFO: Test epoch 404: Average losses: Loss: 1.5969 | MSE loss: 0.0005 | Bpp loss: 0.8146 | Aux loss: 6.84 | PSNR: 33.322458 | MS-SSIM: 0.981867
+22-09-08 11:36:23.254 - INFO: Test epoch 405: Average losses: Loss: 1.6055 | MSE loss: 0.0005 | Bpp loss: 0.8176 | Aux loss: 10.03 | PSNR: 33.291582 | MS-SSIM: 0.981532
+22-09-08 11:39:22.396 - INFO: Test epoch 406: Average losses: Loss: 1.5847 | MSE loss: 0.0005 | Bpp loss: 0.8143 | Aux loss: 6.42 | PSNR: 33.410989 | MS-SSIM: 0.981787
+22-09-08 11:42:23.079 - INFO: Test epoch 407: Average losses: Loss: 1.6168 | MSE loss: 0.0005 | Bpp loss: 0.8095 | Aux loss: 6.62 | PSNR: 33.228960 | MS-SSIM: 0.981641
+22-09-08 11:45:12.454 - INFO: Test epoch 408: Average losses: Loss: 1.6351 | MSE loss: 0.0005 | Bpp loss: 0.8191 | Aux loss: 9.44 | PSNR: 33.222020 | MS-SSIM: 0.980799
+22-09-08 11:48:11.962 - INFO: Test epoch 409: Average losses: Loss: 1.5803 | MSE loss: 0.0005 | Bpp loss: 0.8163 | Aux loss: 6.15 | PSNR: 33.440308 | MS-SSIM: 0.981747
+22-09-08 11:51:11.217 - INFO: Test epoch 410: Average losses: Loss: 1.5932 | MSE loss: 0.0005 | Bpp loss: 0.8210 | Aux loss: 11.02 | PSNR: 33.440039 | MS-SSIM: 0.981867
+22-09-08 11:54:08.828 - INFO: Test epoch 411: Average losses: Loss: 1.6012 | MSE loss: 0.0005 | Bpp loss: 0.8177 | Aux loss: 10.10 | PSNR: 33.399142 | MS-SSIM: 0.981498
+22-09-08 11:57:07.467 - INFO: Test epoch 412: Average losses: Loss: 1.6101 | MSE loss: 0.0005 | Bpp loss: 0.8295 | Aux loss: 7.08 | PSNR: 33.370862 | MS-SSIM: 0.982123
+22-09-08 12:00:05.238 - INFO: Test epoch 413: Average losses: Loss: 1.6024 | MSE loss: 0.0005 | Bpp loss: 0.8155 | Aux loss: 8.74 | PSNR: 33.387860 | MS-SSIM: 0.981781
+22-09-08 12:03:08.751 - INFO: Test epoch 414: Average losses: Loss: 1.5829 | MSE loss: 0.0005 | Bpp loss: 0.8331 | Aux loss: 8.69 | PSNR: 33.636071 | MS-SSIM: 0.982284
+22-09-08 12:06:06.464 - INFO: Test epoch 415: Average losses: Loss: 1.5845 | MSE loss: 0.0005 | Bpp loss: 0.8234 | Aux loss: 8.69 | PSNR: 33.590661 | MS-SSIM: 0.982142
+22-09-08 12:09:04.815 - INFO: Test epoch 416: Average losses: Loss: 1.6393 | MSE loss: 0.0005 | Bpp loss: 0.8104 | Aux loss: 5.54 | PSNR: 33.076288 | MS-SSIM: 0.981153
+22-09-08 12:12:03.115 - INFO: Test epoch 417: Average losses: Loss: 1.6015 | MSE loss: 0.0005 | Bpp loss: 0.8146 | Aux loss: 9.09 | PSNR: 33.384437 | MS-SSIM: 0.981745
+22-09-08 12:15:00.861 - INFO: Test epoch 418: Average losses: Loss: 1.5907 | MSE loss: 0.0005 | Bpp loss: 0.8227 | Aux loss: 10.80 | PSNR: 33.442513 | MS-SSIM: 0.982009
+22-09-08 12:17:58.582 - INFO: Test epoch 419: Average losses: Loss: 1.5780 | MSE loss: 0.0005 | Bpp loss: 0.8240 | Aux loss: 8.43 | PSNR: 33.529070 | MS-SSIM: 0.981989
+22-09-08 12:17:59.306 - INFO: best checkpoint saved.
+22-09-08 12:20:58.035 - INFO: Test epoch 420: Average losses: Loss: 1.6211 | MSE loss: 0.0005 | Bpp loss: 0.8231 | Aux loss: 8.60 | PSNR: 33.250824 | MS-SSIM: 0.981643
+22-09-08 12:24:01.657 - INFO: Test epoch 421: Average losses: Loss: 1.6041 | MSE loss: 0.0005 | Bpp loss: 0.8172 | Aux loss: 9.17 | PSNR: 33.253142 | MS-SSIM: 0.981754
+22-09-08 12:27:00.095 - INFO: Test epoch 422: Average losses: Loss: 1.5939 | MSE loss: 0.0005 | Bpp loss: 0.8183 | Aux loss: 8.69 | PSNR: 33.474650 | MS-SSIM: 0.981365
+22-09-08 12:30:00.019 - INFO: Test epoch 423: Average losses: Loss: 1.5689 | MSE loss: 0.0005 | Bpp loss: 0.8180 | Aux loss: 6.79 | PSNR: 33.636929 | MS-SSIM: 0.982168
+22-09-08 12:30:00.760 - INFO: best checkpoint saved.
+22-09-08 12:32:59.892 - INFO: Test epoch 424: Average losses: Loss: 1.5886 | MSE loss: 0.0005 | Bpp loss: 0.8311 | Aux loss: 6.36 | PSNR: 33.460874 | MS-SSIM: 0.982324
+22-09-08 12:35:58.403 - INFO: Test epoch 425: Average losses: Loss: 1.5834 | MSE loss: 0.0005 | Bpp loss: 0.8249 | Aux loss: 6.05 | PSNR: 33.564681 | MS-SSIM: 0.982136
+22-09-08 12:38:59.459 - INFO: Test epoch 426: Average losses: Loss: 1.5815 | MSE loss: 0.0005 | Bpp loss: 0.8195 | Aux loss: 7.10 | PSNR: 33.586448 | MS-SSIM: 0.981952
+22-09-08 12:42:05.283 - INFO: Test epoch 427: Average losses: Loss: 1.5725 | MSE loss: 0.0005 | Bpp loss: 0.8123 | Aux loss: 7.30 | PSNR: 33.548513 | MS-SSIM: 0.981917
+22-09-08 12:45:01.451 - INFO: Test epoch 428: Average losses: Loss: 1.5814 | MSE loss: 0.0005 | Bpp loss: 0.8196 | Aux loss: 5.44 | PSNR: 33.629250 | MS-SSIM: 0.982063
+22-09-08 12:48:00.547 - INFO: Test epoch 429: Average losses: Loss: 1.5710 | MSE loss: 0.0005 | Bpp loss: 0.8311 | Aux loss: 7.22 | PSNR: 33.736429 | MS-SSIM: 0.982517
+22-09-08 12:51:00.351 - INFO: Test epoch 430: Average losses: Loss: 1.5840 | MSE loss: 0.0005 | Bpp loss: 0.8245 | Aux loss: 7.78 | PSNR: 33.463647 | MS-SSIM: 0.982163
+22-09-08 12:53:59.607 - INFO: Test epoch 431: Average losses: Loss: 1.5955 | MSE loss: 0.0005 | Bpp loss: 0.8142 | Aux loss: 5.68 | PSNR: 33.454003 | MS-SSIM: 0.981577
+22-09-08 12:56:57.297 - INFO: Test epoch 432: Average losses: Loss: 1.5838 | MSE loss: 0.0005 | Bpp loss: 0.8232 | Aux loss: 6.75 | PSNR: 33.447693 | MS-SSIM: 0.982099
+22-09-08 12:59:57.308 - INFO: Test epoch 433: Average losses: Loss: 1.6037 | MSE loss: 0.0005 | Bpp loss: 0.8199 | Aux loss: 9.40 | PSNR: 33.414964 | MS-SSIM: 0.981997
+22-09-08 13:03:00.969 - INFO: Test epoch 434: Average losses: Loss: 1.6717 | MSE loss: 0.0005 | Bpp loss: 0.8148 | Aux loss: 7.41 | PSNR: 33.143498 | MS-SSIM: 0.981177
+22-09-08 13:05:58.489 - INFO: Test epoch 435: Average losses: Loss: 1.5763 | MSE loss: 0.0005 | Bpp loss: 0.8265 | Aux loss: 6.18 | PSNR: 33.652975 | MS-SSIM: 0.981962
+22-09-08 13:08:57.268 - INFO: Test epoch 436: Average losses: Loss: 1.5770 | MSE loss: 0.0005 | Bpp loss: 0.8274 | Aux loss: 7.45 | PSNR: 33.673394 | MS-SSIM: 0.982253
+22-09-08 13:11:54.595 - INFO: Test epoch 437: Average losses: Loss: 1.5623 | MSE loss: 0.0005 | Bpp loss: 0.8165 | Aux loss: 7.64 | PSNR: 33.666255 | MS-SSIM: 0.982337
+22-09-08 13:11:55.440 - INFO: best checkpoint saved.
+22-09-08 13:14:49.388 - INFO: Test epoch 438: Average losses: Loss: 1.5859 | MSE loss: 0.0005 | Bpp loss: 0.8174 | Aux loss: 6.89 | PSNR: 33.466624 | MS-SSIM: 0.981619
+22-09-08 13:17:45.201 - INFO: Test epoch 439: Average losses: Loss: 1.5939 | MSE loss: 0.0005 | Bpp loss: 0.8223 | Aux loss: 9.21 | PSNR: 33.452924 | MS-SSIM: 0.981895
+22-09-08 13:20:49.651 - INFO: Test epoch 440: Average losses: Loss: 1.5871 | MSE loss: 0.0005 | Bpp loss: 0.8178 | Aux loss: 7.10 | PSNR: 33.549187 | MS-SSIM: 0.981838
+22-09-08 13:23:45.840 - INFO: Test epoch 441: Average losses: Loss: 1.5966 | MSE loss: 0.0005 | Bpp loss: 0.8135 | Aux loss: 12.92 | PSNR: 33.400748 | MS-SSIM: 0.981269
+22-09-08 13:26:43.448 - INFO: Test epoch 442: Average losses: Loss: 1.5948 | MSE loss: 0.0005 | Bpp loss: 0.8082 | Aux loss: 8.20 | PSNR: 33.411406 | MS-SSIM: 0.981697
+22-09-08 13:29:42.685 - INFO: Test epoch 443: Average losses: Loss: 1.5830 | MSE loss: 0.0005 | Bpp loss: 0.8222 | Aux loss: 9.08 | PSNR: 33.612161 | MS-SSIM: 0.982051
+22-09-08 13:32:42.882 - INFO: Test epoch 444: Average losses: Loss: 1.5691 | MSE loss: 0.0005 | Bpp loss: 0.8262 | Aux loss: 7.78 | PSNR: 33.673382 | MS-SSIM: 0.982073
+22-09-08 13:35:41.714 - INFO: Test epoch 445: Average losses: Loss: 1.6407 | MSE loss: 0.0005 | Bpp loss: 0.8349 | Aux loss: 11.10 | PSNR: 33.413108 | MS-SSIM: 0.981525
+22-09-08 13:38:39.492 - INFO: Test epoch 446: Average losses: Loss: 1.6157 | MSE loss: 0.0005 | Bpp loss: 0.8260 | Aux loss: 10.59 | PSNR: 33.442182 | MS-SSIM: 0.981932
+22-09-08 13:41:46.491 - INFO: Test epoch 447: Average losses: Loss: 1.5767 | MSE loss: 0.0005 | Bpp loss: 0.8204 | Aux loss: 8.12 | PSNR: 33.619473 | MS-SSIM: 0.982109
+22-09-08 13:44:44.645 - INFO: Test epoch 448: Average losses: Loss: 1.5780 | MSE loss: 0.0005 | Bpp loss: 0.8120 | Aux loss: 6.23 | PSNR: 33.411852 | MS-SSIM: 0.981777
+22-09-08 13:47:44.559 - INFO: Test epoch 449: Average losses: Loss: 1.6835 | MSE loss: 0.0005 | Bpp loss: 0.8073 | Aux loss: 9.20 | PSNR: 32.976453 | MS-SSIM: 0.980559
+22-09-08 13:50:46.583 - INFO: Test epoch 450: Average losses: Loss: 1.5344 | MSE loss: 0.0004 | Bpp loss: 0.8226 | Aux loss: 3.50 | PSNR: 33.804223 | MS-SSIM: 0.982702
+22-09-08 13:50:47.335 - INFO: best checkpoint saved.
+22-09-08 13:53:49.201 - INFO: Test epoch 451: Average losses: Loss: 1.5320 | MSE loss: 0.0004 | Bpp loss: 0.8269 | Aux loss: 3.54 | PSNR: 33.833661 | MS-SSIM: 0.982673
+22-09-08 13:53:50.028 - INFO: best checkpoint saved.
+22-09-08 13:56:48.792 - INFO: Test epoch 452: Average losses: Loss: 1.5303 | MSE loss: 0.0004 | Bpp loss: 0.8251 | Aux loss: 3.84 | PSNR: 33.857907 | MS-SSIM: 0.982687
+22-09-08 13:56:49.541 - INFO: best checkpoint saved.
+22-09-08 13:59:55.625 - INFO: Test epoch 453: Average losses: Loss: 1.5309 | MSE loss: 0.0004 | Bpp loss: 0.8300 | Aux loss: 4.09 | PSNR: 33.859059 | MS-SSIM: 0.982924
+22-09-08 14:02:28.329 - INFO: Test epoch 454: Average losses: Loss: 1.5312 | MSE loss: 0.0004 | Bpp loss: 0.8284 | Aux loss: 4.36 | PSNR: 33.841237 | MS-SSIM: 0.982779
+22-09-08 14:05:12.804 - INFO: Test epoch 455: Average losses: Loss: 1.5287 | MSE loss: 0.0004 | Bpp loss: 0.8306 | Aux loss: 4.31 | PSNR: 33.891913 | MS-SSIM: 0.983033
+22-09-08 14:05:13.503 - INFO: best checkpoint saved.
+22-09-08 14:07:58.382 - INFO: Test epoch 456: Average losses: Loss: 1.5289 | MSE loss: 0.0004 | Bpp loss: 0.8247 | Aux loss: 4.51 | PSNR: 33.850046 | MS-SSIM: 0.982890
+22-09-08 14:10:45.338 - INFO: Test epoch 457: Average losses: Loss: 1.5293 | MSE loss: 0.0004 | Bpp loss: 0.8283 | Aux loss: 4.41 | PSNR: 33.869431 | MS-SSIM: 0.982812
+22-09-08 14:13:30.708 - INFO: Test epoch 458: Average losses: Loss: 1.5269 | MSE loss: 0.0004 | Bpp loss: 0.8309 | Aux loss: 4.40 | PSNR: 33.895809 | MS-SSIM: 0.982928
+22-09-08 14:13:31.416 - INFO: best checkpoint saved.
+22-09-08 14:16:16.925 - INFO: Test epoch 459: Average losses: Loss: 1.5284 | MSE loss: 0.0004 | Bpp loss: 0.8300 | Aux loss: 4.85 | PSNR: 33.876535 | MS-SSIM: 0.982956
+22-09-08 14:19:10.186 - INFO: Test epoch 460: Average losses: Loss: 1.5273 | MSE loss: 0.0004 | Bpp loss: 0.8290 | Aux loss: 5.09 | PSNR: 33.899210 | MS-SSIM: 0.982936
+22-09-08 14:21:55.710 - INFO: Test epoch 461: Average losses: Loss: 1.5278 | MSE loss: 0.0004 | Bpp loss: 0.8263 | Aux loss: 5.06 | PSNR: 33.864803 | MS-SSIM: 0.982953
+22-09-08 14:24:33.224 - INFO: Test epoch 462: Average losses: Loss: 1.5292 | MSE loss: 0.0004 | Bpp loss: 0.8277 | Aux loss: 5.40 | PSNR: 33.879644 | MS-SSIM: 0.982901
+22-09-08 14:27:19.438 - INFO: Test epoch 463: Average losses: Loss: 1.5275 | MSE loss: 0.0004 | Bpp loss: 0.8267 | Aux loss: 5.26 | PSNR: 33.873081 | MS-SSIM: 0.982938
+22-09-08 14:30:05.452 - INFO: Test epoch 464: Average losses: Loss: 1.5254 | MSE loss: 0.0004 | Bpp loss: 0.8304 | Aux loss: 6.01 | PSNR: 33.894230 | MS-SSIM: 0.983076
+22-09-08 14:30:06.205 - INFO: best checkpoint saved.
+22-09-08 14:32:50.883 - INFO: Test epoch 465: Average losses: Loss: 1.5277 | MSE loss: 0.0004 | Bpp loss: 0.8235 | Aux loss: 5.94 | PSNR: 33.838632 | MS-SSIM: 0.982882
+22-09-08 14:35:36.572 - INFO: Test epoch 466: Average losses: Loss: 1.5282 | MSE loss: 0.0004 | Bpp loss: 0.8287 | Aux loss: 6.34 | PSNR: 33.879647 | MS-SSIM: 0.982931
+22-09-08 14:38:32.507 - INFO: Test epoch 467: Average losses: Loss: 1.5262 | MSE loss: 0.0004 | Bpp loss: 0.8282 | Aux loss: 6.44 | PSNR: 33.878463 | MS-SSIM: 0.983039
+22-09-08 14:41:18.097 - INFO: Test epoch 468: Average losses: Loss: 1.5256 | MSE loss: 0.0004 | Bpp loss: 0.8306 | Aux loss: 6.85 | PSNR: 33.913158 | MS-SSIM: 0.983108
+22-09-08 14:44:03.236 - INFO: Test epoch 469: Average losses: Loss: 1.5254 | MSE loss: 0.0004 | Bpp loss: 0.8291 | Aux loss: 7.18 | PSNR: 33.906190 | MS-SSIM: 0.982958
+22-09-08 14:44:04.061 - INFO: best checkpoint saved.
+22-09-08 14:46:49.313 - INFO: Test epoch 470: Average losses: Loss: 1.5266 | MSE loss: 0.0004 | Bpp loss: 0.8295 | Aux loss: 6.87 | PSNR: 33.888833 | MS-SSIM: 0.983031
+22-09-08 14:49:33.804 - INFO: Test epoch 471: Average losses: Loss: 1.5259 | MSE loss: 0.0004 | Bpp loss: 0.8268 | Aux loss: 7.09 | PSNR: 33.879892 | MS-SSIM: 0.982990
+22-09-08 14:52:19.088 - INFO: Test epoch 472: Average losses: Loss: 1.5259 | MSE loss: 0.0004 | Bpp loss: 0.8296 | Aux loss: 7.42 | PSNR: 33.912939 | MS-SSIM: 0.983091
+22-09-08 14:55:03.710 - INFO: Test epoch 473: Average losses: Loss: 1.5265 | MSE loss: 0.0004 | Bpp loss: 0.8279 | Aux loss: 7.78 | PSNR: 33.874151 | MS-SSIM: 0.982876
+22-09-08 14:58:02.068 - INFO: Test epoch 474: Average losses: Loss: 1.5263 | MSE loss: 0.0004 | Bpp loss: 0.8297 | Aux loss: 7.65 | PSNR: 33.902736 | MS-SSIM: 0.983006
+22-09-08 15:00:46.804 - INFO: Test epoch 475: Average losses: Loss: 1.5254 | MSE loss: 0.0004 | Bpp loss: 0.8299 | Aux loss: 8.36 | PSNR: 33.898763 | MS-SSIM: 0.983105
+22-09-08 15:00:47.609 - INFO: best checkpoint saved.
+22-09-08 15:03:19.599 - INFO: Test epoch 476: Average losses: Loss: 1.5240 | MSE loss: 0.0004 | Bpp loss: 0.8305 | Aux loss: 8.56 | PSNR: 33.897190 | MS-SSIM: 0.983012
+22-09-08 15:03:20.328 - INFO: best checkpoint saved.
+22-09-08 15:06:05.306 - INFO: Test epoch 477: Average losses: Loss: 1.5257 | MSE loss: 0.0004 | Bpp loss: 0.8260 | Aux loss: 8.36 | PSNR: 33.867877 | MS-SSIM: 0.982896
+22-09-08 15:08:50.029 - INFO: Test epoch 478: Average losses: Loss: 1.5245 | MSE loss: 0.0004 | Bpp loss: 0.8281 | Aux loss: 9.15 | PSNR: 33.891763 | MS-SSIM: 0.983026
+22-09-08 15:11:33.835 - INFO: Test epoch 479: Average losses: Loss: 1.5250 | MSE loss: 0.0004 | Bpp loss: 0.8285 | Aux loss: 8.10 | PSNR: 33.891438 | MS-SSIM: 0.983010
+22-09-08 15:14:18.060 - INFO: Test epoch 480: Average losses: Loss: 1.5257 | MSE loss: 0.0004 | Bpp loss: 0.8302 | Aux loss: 8.25 | PSNR: 33.884297 | MS-SSIM: 0.983016
+22-09-08 15:17:00.358 - INFO: Test epoch 481: Average losses: Loss: 1.5260 | MSE loss: 0.0004 | Bpp loss: 0.8284 | Aux loss: 9.11 | PSNR: 33.871964 | MS-SSIM: 0.983063
+22-09-08 15:19:38.801 - INFO: Test epoch 482: Average losses: Loss: 1.5236 | MSE loss: 0.0004 | Bpp loss: 0.8280 | Aux loss: 8.98 | PSNR: 33.899182 | MS-SSIM: 0.983076
+22-09-08 15:19:39.533 - INFO: best checkpoint saved.
+22-09-08 15:22:18.669 - INFO: Test epoch 483: Average losses: Loss: 1.5237 | MSE loss: 0.0004 | Bpp loss: 0.8295 | Aux loss: 8.89 | PSNR: 33.924697 | MS-SSIM: 0.982891
+22-09-08 15:24:57.951 - INFO: Test epoch 484: Average losses: Loss: 1.5267 | MSE loss: 0.0004 | Bpp loss: 0.8275 | Aux loss: 9.00 | PSNR: 33.880293 | MS-SSIM: 0.982956
+22-09-08 15:27:35.048 - INFO: Test epoch 485: Average losses: Loss: 1.5253 | MSE loss: 0.0004 | Bpp loss: 0.8255 | Aux loss: 9.39 | PSNR: 33.885051 | MS-SSIM: 0.982970
+22-09-08 15:30:14.242 - INFO: Test epoch 486: Average losses: Loss: 1.5258 | MSE loss: 0.0004 | Bpp loss: 0.8282 | Aux loss: 9.15 | PSNR: 33.900468 | MS-SSIM: 0.983067
+22-09-08 15:32:54.013 - INFO: Test epoch 487: Average losses: Loss: 1.5239 | MSE loss: 0.0004 | Bpp loss: 0.8265 | Aux loss: 9.61 | PSNR: 33.873363 | MS-SSIM: 0.982974
+22-09-08 15:35:33.708 - INFO: Test epoch 488: Average losses: Loss: 1.5232 | MSE loss: 0.0004 | Bpp loss: 0.8305 | Aux loss: 10.02 | PSNR: 33.913303 | MS-SSIM: 0.983101
+22-09-08 15:35:34.551 - INFO: best checkpoint saved.
+22-09-08 15:38:13.008 - INFO: Test epoch 489: Average losses: Loss: 1.5246 | MSE loss: 0.0004 | Bpp loss: 0.8266 | Aux loss: 9.86 | PSNR: 33.869732 | MS-SSIM: 0.982939
+22-09-08 15:40:52.879 - INFO: Test epoch 490: Average losses: Loss: 1.5245 | MSE loss: 0.0004 | Bpp loss: 0.8258 | Aux loss: 8.81 | PSNR: 33.871390 | MS-SSIM: 0.982787
+22-09-08 15:43:32.580 - INFO: Test epoch 491: Average losses: Loss: 1.5255 | MSE loss: 0.0004 | Bpp loss: 0.8270 | Aux loss: 10.63 | PSNR: 33.895316 | MS-SSIM: 0.983036
+22-09-08 15:46:13.182 - INFO: Test epoch 492: Average losses: Loss: 1.5244 | MSE loss: 0.0004 | Bpp loss: 0.8258 | Aux loss: 10.73 | PSNR: 33.862996 | MS-SSIM: 0.982985
+22-09-08 15:48:53.462 - INFO: Test epoch 493: Average losses: Loss: 1.5241 | MSE loss: 0.0004 | Bpp loss: 0.8274 | Aux loss: 10.76 | PSNR: 33.888127 | MS-SSIM: 0.982973
+22-09-08 15:51:34.117 - INFO: Test epoch 494: Average losses: Loss: 1.5234 | MSE loss: 0.0004 | Bpp loss: 0.8237 | Aux loss: 10.94 | PSNR: 33.874312 | MS-SSIM: 0.982980
+22-09-08 15:54:04.496 - INFO: Test epoch 495: Average losses: Loss: 1.5235 | MSE loss: 0.0004 | Bpp loss: 0.8268 | Aux loss: 10.41 | PSNR: 33.898508 | MS-SSIM: 0.983111
+22-09-08 15:56:44.859 - INFO: Test epoch 496: Average losses: Loss: 1.5254 | MSE loss: 0.0004 | Bpp loss: 0.8263 | Aux loss: 10.80 | PSNR: 33.897651 | MS-SSIM: 0.983105
+22-09-08 15:59:25.286 - INFO: Test epoch 497: Average losses: Loss: 1.5249 | MSE loss: 0.0004 | Bpp loss: 0.8251 | Aux loss: 10.12 | PSNR: 33.876940 | MS-SSIM: 0.982982
+22-09-08 16:01:59.470 - INFO: Test epoch 498: Average losses: Loss: 1.5234 | MSE loss: 0.0004 | Bpp loss: 0.8287 | Aux loss: 11.19 | PSNR: 33.900602 | MS-SSIM: 0.983013
+22-09-08 16:04:33.230 - INFO: Test epoch 499: Average losses: Loss: 1.5246 | MSE loss: 0.0004 | Bpp loss: 0.8265 | Aux loss: 10.04 | PSNR: 33.878919 | MS-SSIM: 0.983020

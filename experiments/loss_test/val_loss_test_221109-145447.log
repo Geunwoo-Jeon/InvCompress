@@ -1,0 +1,15 @@
+22-11-09 14:58:46.555 - INFO: Test epoch 0: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.52 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 14:58:46.682 - INFO: best checkpoint saved.
+22-11-09 15:02:38.952 - INFO: Test epoch 1: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 6.22 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:06:32.360 - INFO: Test epoch 2: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.13 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:10:27.399 - INFO: Test epoch 3: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.49 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:14:21.424 - INFO: Test epoch 4: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.84 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:18:10.508 - INFO: Test epoch 5: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.34 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:21:59.541 - INFO: Test epoch 6: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.79 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:25:50.154 - INFO: Test epoch 7: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.70 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:29:40.997 - INFO: Test epoch 8: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.84 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:33:31.760 - INFO: Test epoch 9: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 6.08 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:37:24.973 - INFO: Test epoch 10: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 6.19 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:41:19.241 - INFO: Test epoch 11: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.70 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:45:11.660 - INFO: Test epoch 12: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.72 | PSNR: 8.400923 | MS-SSIM: 0.261430
+22-11-09 15:49:06.960 - INFO: Test epoch 13: Average losses: Loss: 135.9129 | MSE loss: 0.1607 | Bpp loss: 0.0347 | Aux loss: 5.64 | PSNR: 8.400923 | MS-SSIM: 0.261430

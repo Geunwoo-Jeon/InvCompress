@@ -1,0 +1,88 @@
+22-10-10 15:24:37.877 - INFO: Namespace(aux_learning_rate=0.001, basepoint=None, batch_size=8, checkpoint=None, clip_max_norm=1.0, config=None, cuda=True, dataset='/home/qororo606/flicker', epochs=500, experiment='tester', gpu_id=0, learning_rate=0.0001, lmbda=0.0018, lsq=False, metrics='mse', model='mbt2018-mean', num_workers=4, patch_size=(256, 256), pretrain=False, quality=1, save=True, seed=None, test_batch_size=1)
+22-10-10 15:24:37.878 - INFO: MeanScaleHyperprior(
+  (entropy_bottleneck): EntropyBottleneck(
+    (likelihood_lower_bound): LowerBound()
+  )
+  (g_a): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (1): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (2): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (3): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (4): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (5): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (6): Conv2d(128, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+  )
+  (g_s): Sequential(
+    (0): ConvTranspose2d(192, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (1): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (2): ConvTranspose2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (3): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (4): ConvTranspose2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (5): GDN(
+      (beta_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+      (gamma_reparam): NonNegativeParametrizer(
+        (lower_bound): LowerBound()
+      )
+    )
+    (6): ConvTranspose2d(128, 3, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+  )
+  (h_a): Sequential(
+    (0): Conv2d(192, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): LeakyReLU(negative_slope=0.01, inplace=True)
+    (2): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (3): LeakyReLU(negative_slope=0.01, inplace=True)
+    (4): Conv2d(128, 128, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+  )
+  (h_s): Sequential(
+    (0): ConvTranspose2d(128, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (1): LeakyReLU(negative_slope=0.01, inplace=True)
+    (2): ConvTranspose2d(192, 288, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (3): LeakyReLU(negative_slope=0.01, inplace=True)
+    (4): Conv2d(288, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (gaussian_conditional): GaussianConditional(
+    (likelihood_lower_bound): LowerBound()
+    (lower_bound_scale): LowerBound()
+  )
+)
+22-10-10 15:24:37.879 - INFO: Learning rate: 0.0001
+22-10-10 15:24:41.747 - INFO: Train epoch 0: [    0/16574 (0%)] Loss: 44.0602 | MSE loss: 0.3738 | Bpp loss: 0.3113 | Aux loss: 5279.06
+22-10-10 15:30:14.988 - INFO: Train epoch 0: [  800/16574 (5%)] Loss: 2.2466 | MSE loss: 0.0159 | Bpp loss: 0.3813 | Aux loss: 5248.84
+22-10-10 15:35:22.496 - INFO: Train epoch 0: [ 1600/16574 (10%)] Loss: 3.0251 | MSE loss: 0.0223 | Bpp loss: 0.4117 | Aux loss: 5221.06

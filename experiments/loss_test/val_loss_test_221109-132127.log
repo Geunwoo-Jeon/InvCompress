@@ -1,0 +1,6 @@
+22-11-09 13:31:11.127 - INFO: Test epoch 0: Average losses: Loss: 1.2988 | MSE loss: 0.0008 | Bpp loss: 0.5870 | Aux loss: 5.52 | PSNR: 31.062903 | MS-SSIM: 0.970444
+22-11-09 13:31:11.221 - INFO: best checkpoint saved.
+22-11-09 13:40:08.129 - INFO: Test epoch 1: Average losses: Loss: 1.2861 | MSE loss: 0.0008 | Bpp loss: 0.5838 | Aux loss: 6.22 | PSNR: 31.236672 | MS-SSIM: 0.970607
+22-11-09 13:40:08.246 - INFO: best checkpoint saved.
+22-11-09 13:49:04.817 - INFO: Test epoch 2: Average losses: Loss: 1.2914 | MSE loss: 0.0008 | Bpp loss: 0.5837 | Aux loss: 5.13 | PSNR: 31.195424 | MS-SSIM: 0.970493
+22-11-09 13:57:52.515 - INFO: Test epoch 3: Average losses: Loss: 1.2977 | MSE loss: 0.0008 | Bpp loss: 0.5845 | Aux loss: 5.49 | PSNR: 31.104765 | MS-SSIM: 0.970191

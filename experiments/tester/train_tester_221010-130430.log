@@ -1,0 +1,68 @@
+22-10-10 13:04:32.764 - INFO: Namespace(aux_learning_rate=0.001, basepoint=None, batch_size=8, checkpoint=None, clip_max_norm=1.0, config=None, cuda=True, dataset='/home/qororo606/flicker', epochs=500, experiment='tester', gpu_id=0, learning_rate=0.0001, lmbda=0.0018, lsq=False, metrics='mse', model='joint-relu', num_workers=4, patch_size=(256, 256), pretrain=False, quality=1, save=True, seed=None, test_batch_size=1)
+22-10-10 13:04:32.764 - INFO: JointReLU(
+  (entropy_bottleneck): EntropyBottleneck(
+    (likelihood_lower_bound): LowerBound()
+  )
+  (g_a): Sequential(
+    (0): Conv2d(3, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (1): ReLU()
+    (2): Conv2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (3): ReLU()
+    (4): Conv2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (5): ReLU()
+    (6): Conv2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+  )
+  (g_s): Sequential(
+    (0): ConvTranspose2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (1): ReLU()
+    (2): ConvTranspose2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (3): ReLU()
+    (4): ConvTranspose2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (5): ReLU()
+    (6): ConvTranspose2d(192, 3, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+  )
+  (h_a): Sequential(
+    (0): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+    (3): ReLU()
+    (4): Conv2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))
+  )
+  (h_s): Sequential(
+    (0): ConvTranspose2d(192, 192, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (1): ReLU()
+    (2): ConvTranspose2d(192, 288, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2), output_padding=(1, 1))
+    (3): ReLU()
+    (4): Conv2d(288, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (gaussian_conditional): GaussianConditional(
+    (likelihood_lower_bound): LowerBound()
+    (lower_bound_scale): LowerBound()
+  )
+  (entropy_parameters): Sequential(
+    (0): Conv2d(768, 640, kernel_size=(1, 1), stride=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(640, 512, kernel_size=(1, 1), stride=(1, 1))
+    (3): ReLU()
+    (4): Conv2d(512, 384, kernel_size=(1, 1), stride=(1, 1))
+  )
+  (context_prediction): MaskedConv2d(192, 384, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+)
+22-10-10 13:04:32.765 - INFO: Learning rate: 0.0001
+22-10-10 13:04:39.590 - INFO: Train epoch 0: [    0/16574 (0%)] Loss: 18.6248 | MSE loss: 0.1559 | Bpp loss: 0.3766 | Aux loss: 7920.76
+22-10-10 13:13:53.634 - INFO: Train epoch 0: [  800/16574 (5%)] Loss: 4.4846 | MSE loss: 0.0347 | Bpp loss: 0.4280 | Aux loss: 7884.82
+22-10-10 13:23:06.974 - INFO: Train epoch 0: [ 1600/16574 (10%)] Loss: 2.3588 | MSE loss: 0.0164 | Bpp loss: 0.4371 | Aux loss: 7848.90
+22-10-10 13:32:09.162 - INFO: Train epoch 0: [ 2400/16574 (14%)] Loss: 2.3159 | MSE loss: 0.0162 | Bpp loss: 0.4178 | Aux loss: 7797.74
+22-10-10 13:41:16.461 - INFO: Train epoch 0: [ 3200/16574 (19%)] Loss: 3.6858 | MSE loss: 0.0280 | Bpp loss: 0.4078 | Aux loss: 7748.96
+22-10-10 13:50:18.325 - INFO: Train epoch 0: [ 4000/16574 (24%)] Loss: 1.9257 | MSE loss: 0.0131 | Bpp loss: 0.3953 | Aux loss: 7716.49
+22-10-10 13:59:29.482 - INFO: Train epoch 0: [ 4800/16574 (29%)] Loss: 2.7112 | MSE loss: 0.0198 | Bpp loss: 0.3969 | Aux loss: 7659.91
+22-10-10 14:08:33.613 - INFO: Train epoch 0: [ 5600/16574 (34%)] Loss: 1.7051 | MSE loss: 0.0112 | Bpp loss: 0.3905 | Aux loss: 7615.66
+22-10-10 14:17:46.573 - INFO: Train epoch 0: [ 6400/16574 (39%)] Loss: 2.2962 | MSE loss: 0.0158 | Bpp loss: 0.4421 | Aux loss: 7559.88
+22-10-10 14:26:49.093 - INFO: Train epoch 0: [ 7200/16574 (43%)] Loss: 1.5874 | MSE loss: 0.0101 | Bpp loss: 0.4059 | Aux loss: 7507.86
+22-10-10 14:35:56.445 - INFO: Train epoch 0: [ 8000/16574 (48%)] Loss: 1.4196 | MSE loss: 0.0086 | Bpp loss: 0.4108 | Aux loss: 7450.94
+22-10-10 14:45:01.587 - INFO: Train epoch 0: [ 8800/16574 (53%)] Loss: 1.5051 | MSE loss: 0.0094 | Bpp loss: 0.4048 | Aux loss: 7384.87
+22-10-10 14:54:11.334 - INFO: Train epoch 0: [ 9600/16574 (58%)] Loss: 1.8219 | MSE loss: 0.0121 | Bpp loss: 0.4064 | Aux loss: 7326.65
+22-10-10 15:03:18.654 - INFO: Train epoch 0: [10400/16574 (63%)] Loss: 1.2155 | MSE loss: 0.0073 | Bpp loss: 0.3648 | Aux loss: 7263.30
+22-10-10 15:12:12.401 - INFO: Train epoch 0: [11200/16574 (68%)] Loss: 1.3698 | MSE loss: 0.0086 | Bpp loss: 0.3676 | Aux loss: 7201.95
+22-10-10 15:21:26.075 - INFO: Train epoch 0: [12000/16574 (72%)] Loss: 1.0556 | MSE loss: 0.0058 | Bpp loss: 0.3738 | Aux loss: 7147.95
+22-10-10 15:30:34.385 - INFO: Train epoch 0: [12800/16574 (77%)] Loss: 1.1328 | MSE loss: 0.0065 | Bpp loss: 0.3756 | Aux loss: 7080.86

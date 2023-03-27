@@ -1,0 +1,172 @@
+22-10-10 11:50:52.701 - INFO: Namespace(aux_learning_rate=0.001, basepoint=None, batch_size=8, checkpoint=None, clip_max_norm=1.0, config=None, cuda=True, dataset='/home/qororo606/flicker', epochs=500, experiment='GMM_q2', gpu_id=0, learning_rate=0.0001, lmbda=0.0035, lsq=False, metrics='mse', model='gmm-relu', num_workers=4, patch_size=(256, 256), pretrain=False, quality=2, save=True, seed=None, test_batch_size=1)
+22-10-10 11:50:52.702 - INFO: GMMReLU(
+  (entropy_bottleneck): EntropyBottleneck(
+    (likelihood_lower_bound): LowerBound()
+  )
+  (g_a): Sequential(
+    (0): ResidualBlockWithStrideReLU(
+      (conv1): Conv2d(3, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (skip): Conv2d(3, 128, kernel_size=(1, 1), stride=(2, 2))
+    )
+    (1): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (2): ResidualBlockWithStrideReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (skip): Conv2d(128, 128, kernel_size=(1, 1), stride=(2, 2))
+    )
+    (3): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (4): ResidualBlockWithStrideReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (skip): Conv2d(128, 128, kernel_size=(1, 1), stride=(2, 2))
+    )
+    (5): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (6): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+  )
+  (g_s): Sequential(
+    (0): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (1): ResidualBlockUpsampleReLU(
+      (subpel_conv): Sequential(
+        (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): PixelShuffle(upscale_factor=2)
+      )
+      (relu): ReLU()
+      (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (upsample): Sequential(
+        (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): PixelShuffle(upscale_factor=2)
+      )
+    )
+    (2): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (3): ResidualBlockUpsampleReLU(
+      (subpel_conv): Sequential(
+        (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): PixelShuffle(upscale_factor=2)
+      )
+      (relu): ReLU()
+      (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (upsample): Sequential(
+        (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): PixelShuffle(upscale_factor=2)
+      )
+    )
+    (4): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (5): ResidualBlockUpsampleReLU(
+      (subpel_conv): Sequential(
+        (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): PixelShuffle(upscale_factor=2)
+      )
+      (relu): ReLU()
+      (conv): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (upsample): Sequential(
+        (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): PixelShuffle(upscale_factor=2)
+      )
+    )
+    (6): ResidualBlockReLU(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    )
+    (7): Sequential(
+      (0): Conv2d(128, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+    )
+  )
+  (h_a): Sequential(
+    (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (3): ReLU()
+    (4): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    (5): ReLU()
+    (6): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): ReLU()
+    (8): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+  )
+  (h_s): Sequential(
+    (0): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): Sequential(
+      (0): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+    )
+    (3): ReLU()
+    (4): Conv2d(128, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): ReLU()
+    (6): Sequential(
+      (0): Conv2d(192, 768, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+    )
+    (7): ReLU()
+    (8): Conv2d(192, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (gaussian_conditional): GaussianConditional(
+    (likelihood_lower_bound): LowerBound()
+    (lower_bound_scale): LowerBound()
+  )
+  (entropy_parameters): Sequential(
+    (0): Conv2d(512, 426, kernel_size=(1, 1), stride=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(426, 341, kernel_size=(1, 1), stride=(1, 1))
+    (3): ReLU()
+    (4): Conv2d(341, 256, kernel_size=(1, 1), stride=(1, 1))
+  )
+  (context_prediction): MaskedConv2d(128, 256, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+)
+22-10-10 11:50:52.704 - INFO: Learning rate: 0.0001
+22-10-10 11:50:58.885 - INFO: Train epoch 0: [    0/16574 (0%)] Loss: 82.4512 | MSE loss: 0.3609 | Bpp loss: 0.3098 | Aux loss: 5279.07
+22-10-10 12:00:30.781 - INFO: Train epoch 0: [  800/16574 (5%)] Loss: 3.1844 | MSE loss: 0.0126 | Bpp loss: 0.3228 | Aux loss: 5250.96
+22-10-10 12:09:52.559 - INFO: Train epoch 0: [ 1600/16574 (10%)] Loss: 2.7404 | MSE loss: 0.0106 | Bpp loss: 0.3304 | Aux loss: 5218.27
+22-10-10 12:19:01.125 - INFO: Train epoch 0: [ 2400/16574 (14%)] Loss: 2.6021 | MSE loss: 0.0100 | Bpp loss: 0.3212 | Aux loss: 5191.15
+22-10-10 12:28:09.018 - INFO: Train epoch 0: [ 3200/16574 (19%)] Loss: 3.2411 | MSE loss: 0.0126 | Bpp loss: 0.3697 | Aux loss: 5159.12
+22-10-10 12:37:02.467 - INFO: Train epoch 0: [ 4000/16574 (24%)] Loss: 2.5402 | MSE loss: 0.0094 | Bpp loss: 0.3990 | Aux loss: 5125.07
+22-10-10 12:45:29.240 - INFO: Train epoch 0: [ 4800/16574 (29%)] Loss: 2.6747 | MSE loss: 0.0101 | Bpp loss: 0.3735 | Aux loss: 5091.46
+22-10-10 12:54:20.501 - INFO: Train epoch 0: [ 5600/16574 (34%)] Loss: 2.6538 | MSE loss: 0.0100 | Bpp loss: 0.3731 | Aux loss: 5057.49
+22-10-10 13:02:41.862 - INFO: Train epoch 0: [ 6400/16574 (39%)] Loss: 1.5870 | MSE loss: 0.0055 | Bpp loss: 0.3423 | Aux loss: 5019.04
+22-10-10 13:11:17.135 - INFO: Train epoch 0: [ 7200/16574 (43%)] Loss: 1.4588 | MSE loss: 0.0049 | Bpp loss: 0.3366 | Aux loss: 4977.06
+22-10-10 13:20:40.117 - INFO: Train epoch 0: [ 8000/16574 (48%)] Loss: 1.8653 | MSE loss: 0.0067 | Bpp loss: 0.3301 | Aux loss: 4932.15
+22-10-10 13:29:44.986 - INFO: Train epoch 0: [ 8800/16574 (53%)] Loss: 1.9758 | MSE loss: 0.0072 | Bpp loss: 0.3429 | Aux loss: 4892.37
+22-10-10 13:38:47.765 - INFO: Train epoch 0: [ 9600/16574 (58%)] Loss: 1.3926 | MSE loss: 0.0047 | Bpp loss: 0.3209 | Aux loss: 4844.89
+22-10-10 13:47:28.243 - INFO: Train epoch 0: [10400/16574 (63%)] Loss: 1.3215 | MSE loss: 0.0045 | Bpp loss: 0.2948 | Aux loss: 4796.91
+22-10-10 13:56:10.632 - INFO: Train epoch 0: [11200/16574 (68%)] Loss: 1.5621 | MSE loss: 0.0053 | Bpp loss: 0.3621 | Aux loss: 4757.27
+22-10-10 14:04:50.887 - INFO: Train epoch 0: [12000/16574 (72%)] Loss: 2.7402 | MSE loss: 0.0104 | Bpp loss: 0.3836 | Aux loss: 4700.86
+22-10-10 14:14:17.507 - INFO: Train epoch 0: [12800/16574 (77%)] Loss: 1.3256 | MSE loss: 0.0043 | Bpp loss: 0.3435 | Aux loss: 4648.09
+22-10-10 14:23:42.598 - INFO: Train epoch 0: [13600/16574 (82%)] Loss: 1.7394 | MSE loss: 0.0062 | Bpp loss: 0.3394 | Aux loss: 4593.82
+22-10-10 14:32:50.136 - INFO: Train epoch 0: [14400/16574 (87%)] Loss: 1.1135 | MSE loss: 0.0036 | Bpp loss: 0.3017 | Aux loss: 4541.87
+22-10-10 14:41:28.314 - INFO: Train epoch 0: [15200/16574 (92%)] Loss: 1.7230 | MSE loss: 0.0062 | Bpp loss: 0.3082 | Aux loss: 4481.26
+22-10-10 14:50:25.270 - INFO: Train epoch 0: [16000/16574 (97%)] Loss: 1.5553 | MSE loss: 0.0055 | Bpp loss: 0.3053 | Aux loss: 4422.58
+22-10-10 14:57:00.111 - INFO: Learning rate: 0.0001
+22-10-10 14:57:11.519 - INFO: Train epoch 1: [    0/16574 (0%)] Loss: 1.4347 | MSE loss: 0.0049 | Bpp loss: 0.3152 | Aux loss: 4374.34
+22-10-10 15:06:35.552 - INFO: Train epoch 1: [  800/16574 (5%)] Loss: 1.0232 | MSE loss: 0.0031 | Bpp loss: 0.3065 | Aux loss: 4312.40
+22-10-10 15:16:17.901 - INFO: Train epoch 1: [ 1600/16574 (10%)] Loss: 1.1325 | MSE loss: 0.0037 | Bpp loss: 0.2988 | Aux loss: 4238.30
+22-10-10 15:25:38.507 - INFO: Train epoch 1: [ 2400/16574 (14%)] Loss: 1.8051 | MSE loss: 0.0064 | Bpp loss: 0.3454 | Aux loss: 4169.11
+22-10-10 15:34:50.042 - INFO: Train epoch 1: [ 3200/16574 (19%)] Loss: 1.2867 | MSE loss: 0.0042 | Bpp loss: 0.3233 | Aux loss: 4097.94
